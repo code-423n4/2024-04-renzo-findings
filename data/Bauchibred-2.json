@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "There is currently no max amount of operators that can be added which can break contract's functionalities by having users withdrawal being Dos'd to faulting cross chain functionalities",
+  "issueId": 2,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/2"
+}
