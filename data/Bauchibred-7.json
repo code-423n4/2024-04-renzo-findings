@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": "`WithdrawQueue.sol'`s current implementation of executing withdrawal requests  asides having a 0% hardcoded on-chain slippage could also lead to users receiving way little redeemed amounts not in their favor/control",
+  "issueId": 7,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/7"
+}
