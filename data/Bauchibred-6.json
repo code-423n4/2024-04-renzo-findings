@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": " Protocol implements a push over pull method when withdrawing which could cause users withdrawal attempts to be indefinitely stuck in protocol",
+  "issueId": 6,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/6"
+}
