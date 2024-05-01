@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": "An inflated total `TVL` is being assumed for protocol due to an overlook in `RestakeManger.calculateTVLs()` ",
+  "issueId": 5,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/5"
+}
