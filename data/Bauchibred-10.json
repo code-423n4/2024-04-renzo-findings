@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": " Protocol supports `stETH` token but doesn't consider its transfer logic which would lead to not only a DOS of the depositing/withdrawal channel for this collateral token but a flaw in other protocol's logic",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/10"
+}
