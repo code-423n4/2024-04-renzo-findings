@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": "Protocol uses the `STETH/ETH` feed leading to frequent ingestion of non-fresh prices and allowance of arbitrage",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/8"
+}
