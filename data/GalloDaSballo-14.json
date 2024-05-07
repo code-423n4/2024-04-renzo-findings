@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "GalloDaSballo",
+  "risk": "2",
+  "title": "L2 Oracle Update Minting Delay causes incorrect accounting of xezETH and may cause undercollateralization",
+  "issueId": 14,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/14"
+}
