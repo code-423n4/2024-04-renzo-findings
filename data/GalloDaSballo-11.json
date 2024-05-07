@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "GalloDaSballo",
+  "risk": "3",
+  "title": "Withdrawers can skip Slashing due to cached `amountToRedeem`",
+  "issueId": 11,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/11"
+}
