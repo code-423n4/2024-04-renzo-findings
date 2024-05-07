@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "GalloDaSballo",
+  "risk": "2",
+  "title": " 1 day staleness check is too tight as that's the update threshold for stETH/ETH",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/12"
+}
