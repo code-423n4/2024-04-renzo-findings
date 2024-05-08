@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "At `WithdrawQueue` contract, burning `ezETH` should be in the `claim()` function, not in the `withdraw()` function.",
+  "issueId": 42,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/42"
+}
