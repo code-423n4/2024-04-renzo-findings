@@ -328,3 +328,30 @@ For example in ETH rewards redistribution flow ([DepositQueue::receive](https://
 
 Recommendations:
 If Main invariant 2 is meant to be adhered as stated in readme, then consider removing the filling withdrawal buffer step during reward distribution, as withdrawal buffer is only for the user withdraw claim.  
+
+### Low-14 Hardcode 200_000 gasLimit when sendPrice might not be suitable for all chains, consider adding gaslimit as a param that can be customized.
+**Instances(1)**
+In contracts/Bridge/L1/xRenzoBridge.sol, sendPrice() will hardcode 200_000 as gasLimit to be passed for ccip tx, this gas amount is intended for destination chain tx. 
+
+However, there is no guarantee that 200_000 will be compatible for all possible L2 chains intended. If insufficient gas limit is passed, ccipReceive + L2updatePrice flow will always revert on destination L2.
+```solidity
+//contracts/Bridge/L1/xRenzoBridge.sol
+...
+        // send price feed to renzo CCIP receivers
+        for (uint256 i = 0; i < _destinationParam.length; ) {
+            Client.EVM2AnyMessage memory evm2AnyMessage = Client.EVM2AnyMessage({
+                receiver: abi.encode(_destinationParam[i]._renzoReceiver), // ABI-encoded xRenzoDepsot contract address
+                data: _callData, // ABI-encoded ezETH exchange rate with Timestamp
+                tokenAmounts: new Client.EVMTokenAmount[](0), // Empty array indicating no tokens are being sent
+                extraArgs: Client._argsToBytes(
+                    // Additional arguments, setting gas limit
+|>                  Client.EVMExtraArgsV1({ gasLimit: 200_000 })
+                ),
+                // Set the feeToken  address, indicating LINK will be used for fees
+                feeToken: address(linkToken)
+            });
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Bridge/L1/xRenzoBridge.sol#L225)
+
+Recommendations:
+Consider adding gaslimit as a param that can be customized depending on destination chain.
