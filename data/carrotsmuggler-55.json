@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "carrotsmuggler",
+  "risk": "2",
+  "title": "No staleness check in cross chain price updates",
+  "issueId": 55,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/55"
+}
