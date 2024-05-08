@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "When depositing assets to an operator delegator, it should check if the asset is supported in the operator delegator",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/47"
+}
