@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Vulnerable L1/L2 timestamp check might randomly DOS price update ",
+  "issueId": 21,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/21"
+}
