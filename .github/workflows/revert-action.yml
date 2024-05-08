@@ -1,0 +1,20 @@
+name: Repo Moderator
+
+on:
+  issues: 
+    types: [labeled, unlabeled, closed, reopened, assigned, unassigned] 
+  pull_request:
+    types: [closed, reopened, assigned, unassigned]
+
+jobs:
+  revert-action:
+    if: github.actor != 'C4-Staff' && github.actor != 'c4-judge'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repo Moderator
+        uses: code-423n4/repo-moderator@main
+        with:
+          github-token: ${{ secrets.ACTIONS_TOKEN }}
+          sponsor-team-slug: "2024-04-renzo-sponsors"
+          allowed-labels: "sponsor confirmed, sponsor disputed, sponsor acknowledged"
