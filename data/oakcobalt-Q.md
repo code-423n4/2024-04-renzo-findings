@@ -218,3 +218,80 @@ This should change to 1 WBETH in ETH.
 Recommendations:
 Change to 1 WBETH in ETH.
 
+### Low-10 `collateralTokenTvlLimits` might be exceeded due to missing check in `depositTokenRewardsFromProtocol()`
+**Instances(1)**
+In contracts/RestakeManager.sol, each collateral token has a max deposit limit ([collateralTokenTvlLimits](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/RestakeManager.sol#L714)).[This limit is checked in most deposit flow](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/RestakeManager.sol#L529-L530) except for `depositTokenRewardsFromProtocol()`.
+
+As a result, this limit can be exceeded from `depositTokenRewardsFromProtocol()`, resulting in `collateralTokenTVLLimits` being exceeded.
+```solidity
+//contracts/RestakeManager.sol
+    function depositTokenRewardsFromProtocol(
+        IERC20 _token,
+        uint256 _amount
+    ) external onlyDepositQueue {
+        // Get the TVLs for each operator delegator and the total TVL
+        (, uint256[] memory operatorDelegatorTVLs, uint256 totalTVL) = calculateTVLs();
+
+        // Determine which operator delegator to use
+        IOperatorDelegator operatorDelegator = chooseOperatorDelegatorForDeposit(
+            operatorDelegatorTVLs,
+            totalTVL
+        );
+
+        // Transfer the tokens to this address
+        _token.safeTransferFrom(msg.sender, address(this), _amount);
+
+        // Approve the tokens to the operator delegator
+        _token.safeApprove(address(operatorDelegator), _amount);
+
+        // Deposit the tokens into EigenLayer
+        operatorDelegator.deposit(_token, _amount);
+    }
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/RestakeManager.sol#L647)
+
+Recommendations:
+Add collateralTokenTvlLimits check in `depositTokenRewardsFromProtocol()` as well.
+
+### Low-11 Missing step of filling withdraw buffer in the `depositTokenRewardsFromProtocol` flow
+**Instances(1)**
+Based on [discord](https://discord.com/channels/810916927919620096/1233459941474435102/1235249612038738002), `withdrawQueue` get filled by 3 ways:
+1. New Deposits
+2. Daily Rewards Coming in the Protocol.
+3. Manual withdrawal from EigenLayer. Permissioned call from OperatorDelegator.
+
+However, the second way is not consistently implemented. Notably, filling withdraw buffer is missed during `depositTokenRewardsFromProtocol` flow.
+
+```solidity
+//contracts/RestakeManager.sol
+    function depositTokenRewardsFromProtocol(
+        IERC20 _token,
+        uint256 _amount
+    ) external onlyDepositQueue {
+        // Get the TVLs for each operator delegator and the total TVL
+        (, uint256[] memory operatorDelegatorTVLs, uint256 totalTVL) = calculateTVLs();
+
+        // Determine which operator delegator to use
+        IOperatorDelegator operatorDelegator = chooseOperatorDelegatorForDeposit(
+            operatorDelegatorTVLs,
+            totalTVL
+        );
+
+        // Transfer the tokens to this address
+        _token.safeTransferFrom(msg.sender, address(this), _amount);
+
+        // Approve the tokens to the operator delegator
+        _token.safeApprove(address(operatorDelegator), _amount);
+
+        // Deposit the tokens into EigenLayer
+        operatorDelegator.deposit(_token, _amount);
+    }
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/RestakeManager.sol#L647)
+
+As seen, total amount transferred from DepositQueue is redeposited in OD. No [check and refill withdraw buffer](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/RestakeManager.sol#L543) is called.
+
+Note refill buffer is not called in [DepositQueue::sweepERC20](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L254) either. (sweepERC20 -> restakeManager.depositTokenRewardsFromProtocol)
+
+Recommendations:
+Add refill withdraw buffer call in `depositTokenRewardsFromProtocol()`.
