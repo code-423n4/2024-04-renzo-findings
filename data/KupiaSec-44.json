@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "No zero amount check when depositing to `operatorDelegator` during the `RestakeManager.deposit()` function.",
+  "issueId": 44,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/44"
+}
