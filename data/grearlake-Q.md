@@ -32,3 +32,27 @@ During withdrawal period, if there is a reward is distributed for users, withdra
 
 For mitigrating: amountToRedeem should be calculated when claiming
 
+## 3, Fee are not able to be claimed in `xRenzoDeposit` when aassset is not WETH
+
+## Links to affected code
+https://github.com/code-423n4/2024-04-renzo/blob/main/contracts/Bridge/L2/xRenzoDeposit.sol#L396-#L406
+
+## Details
+As confirmed by owner [link](https://discord.com/channels/810916927919620096/1234957882051657769/1236835533062279188), `xRenzoDeposit` contract support multiple assets
+But `_recoverBridgeFee()` only can handle WETH:
+
+    function _recoverBridgeFee() internal {
+        uint256 feeCollected = bridgeFeeCollected;
+        bridgeFeeCollected = 0;
+        // transfer collected fee to bridgeSweeper
+        uint256 balanceBefore = address(this).balance;
+        IWeth(address(depositToken)).withdraw(feeCollected);  // <---
+        feeCollected = address(this).balance - balanceBefore;
+        (bool success, ) = payable(msg.sender).call{ value: feeCollected }("");
+        if (!success) revert TransferFailed();
+        emit SweeperBridgeFeeCollected(msg.sender, feeCollected);
+    }
+When assets is not WETH, this line `IWeth(address(depositToken)).withdraw(feeCollected);` will revert, lead to `sweep` function become non-functional
+
+## Mitigrating
+Update `_recoverBridgeFee()` to support multiple tokens
