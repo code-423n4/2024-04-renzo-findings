@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "pauliax",
+  "risk": "2",
+  "title": "Operator delegator cannot fill withdraw buffer",
+  "issueId": 25,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/25"
+}
