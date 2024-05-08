@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "Deposits to RestakingManager can freeze due to insufficient buffer checks",
+  "issueId": 56,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/56"
+}
