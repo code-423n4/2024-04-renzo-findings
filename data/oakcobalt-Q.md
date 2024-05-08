@@ -172,3 +172,26 @@ In addition, since `stakeButNotVerifiedETH` is added into `getStakedETHBalance()
 Recommendations:
 Consider adding check in OperatorDelegator::verifyWithdrawalCredentials to query EigenPod and confirm the actual verified restakedBalance. Or cache `_MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR` value to check against `validatorCurrentBalanceGwei`.
 
+### Low-07 Two addresses are assigned as native ETH including address(0x0). Consider only using `IS_NATIVE` as eth address.
+**Instances(1)**
+In contracts/Deposits/DepositQueue.sol, Native ETH address is defined as ` address public constant IS_NATIVE = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE` already.
+
+However, in `receive()`, Native ETH is also represented as address(0x0).
+```solidity
+//contracts/Deposits/DepositQueue.sol
+    receive() external payable nonReentrant {
+...
+        totalEarned[address(0x0)] = totalEarned[address(0x0)] + remainingRewards;
+...
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L179)
+
+### Low-08 Inconsistent gas refund calculation
+**Instances(1)**
+Gas refund calculation is implemented in DepositQueue.sol and OperatorDelegator.sol. However the implementation differs in that `baseGasAmountSpent` which is an overhead gas cost is accounted for in OperatorDelegator.sol, but not accounted for in DepositQueue.sol.
+
+In DepositQueue.sol, [_refundGas()](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L284) will account for `gasUsed` as `(initialGas - gasleft())*tx.gasPrice`. However in OperatorDelegator.sol the [gasSpend](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Delegation/OperatorDelegator.sol#L471) is `(initialGas - gasleft() + baseGasAmountSpent) * tx.gasprice`.
+
+Recommendations:
+Consider unify the gas refund calculation in both contracts and add a `baseGasAmountSpent` value for DepositQueue.sol
+
