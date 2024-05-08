@@ -195,3 +195,26 @@ In DepositQueue.sol, [_refundGas()](https://github.com/code-423n4/2024-04-renzo/
 Recommendations:
 Consider unify the gas refund calculation in both contracts and add a `baseGasAmountSpent` value for DepositQueue.sol
 
+### Low-09 Incorrect Comment - 1 mETH to ETH underlying the token in the wBETH protocol
+**Instances(1)**
+In contracts/Oracle/Binance/WBETHShim.sol, `_getWBETHData()` has an incorrect comment.
+
+```solidity
+    /**
+|>   * @notice  This function gets the price of 1 mETH in ETH from the mETH staking contract with 18 decimal precision
+     * @dev     This function does not implement the full Chainlink AggregatorV3Interface
+     * @return  roundId  0 - never returns valid round ID
+     * @return  answer  The conversion rate of 1 mETH to ETH.
+     * @return  startedAt  0 - never returns valid timestamp
+     * @return  updatedAt  The current timestamp.
+     * @return  answeredInRound  0 - never returns valid round ID
+     */
+    function _getWBETHData()
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Oracle/Binance/WBETHShim.sol#L61)
+
+This should change to 1 WBETH in ETH.
+
+Recommendations:
+Change to 1 WBETH in ETH.
+
