@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "Incorrect index at the calculation of `totalWithdrawalQueueValue` in `RestakeManager.calculateTVLs()`.",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/43"
+}
