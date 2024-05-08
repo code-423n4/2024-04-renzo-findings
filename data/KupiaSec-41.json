@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "3",
+  "title": "ETH withdrawal from EigenLayer fails because of improper use of reentrancy guard.",
+  "issueId": 41,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/41"
+}
