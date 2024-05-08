@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Missing whenNotPaused modifier in withdraw/claim function, users' can withdraw/claim even when paused",
+  "issueId": 24,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/24"
+}
