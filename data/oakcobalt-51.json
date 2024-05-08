@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Allocation cap for operatorDelegator can be exceeded due to invalid check in chooseOperatorDelegatorForDeposit",
+  "issueId": 51,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/51"
+}
