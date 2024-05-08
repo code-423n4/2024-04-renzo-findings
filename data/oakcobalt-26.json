@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Vulnerable implementation on reading L2 oracle might DOS L2 deposit, even when valid price is available",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/26"
+}
