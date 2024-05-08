@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "Incorrect index in `RestakeManager` contract leads to faulty TVL calculation",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/53"
+}
