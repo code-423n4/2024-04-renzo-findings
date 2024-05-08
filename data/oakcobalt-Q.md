@@ -295,3 +295,36 @@ Note refill buffer is not called in [DepositQueue::sweepERC20](https://github.co
 
 Recommendations:
 Add refill withdraw buffer call in `depositTokenRewardsFromProtocol()`.
+
+### Low-12 When `cooldown` is updated, some users' already requested withdraw will be unexpectedly delayed.
+**Instances(1)**
+In contracts/Withdraw/WithdrawQueue.sol, a `cooldown` period is enforced between withdraw quest and withdraw claim (token transfer).
+
+However, if `cooldown` is updated, existing `withdrawRequest` will be impacted due to vulnerable cool down check implementation in claim().
+Current check will compared time lapsed from withdrawQuest directly with coolDownPeriod. This means, if coolDownPeriod is updated to be longer, a user who initially expected withdraw claim will be delayed.
+
+This is unfair for user because `withdrawRequest` was created at a time before `cooldown` update, so the old coolDownPeriod should be used in the claim flow. 
+```solidity
+//contracts/Withdraw/WithdrawQueue.sol
+   function claim(uint256 withdrawRequestIndex) external nonReentrant {
+   ...
+            //@audit This is potentially using a new coolDownPeriod against a historic withdrawRequest. User's claim will be delayed.
+|>          if (block.timestamp - _withdrawRequest.createdAt < coolDownPeriod) revert EarlyClaim();
+...
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Withdraw/WithdrawQueue.sol#L287)
+
+Recommendations:
+Consider recording a cooldDownEnd timestamp for a withdrawRequest, such that coolDownPeriod associated with withdrawRequest creation will be used.
+
+### Low-13 Main invariant 2 can be broken due to fill withdrawal buffer implementation
+**Instances(1)**
+Based on [readme](https://github.com/code-423n4/2024-04-renzo/tree/main?tab=readme-ov-file#main-invariants), 
+>Any rewards earned by the protocol should be redeposited (minus a protocol fee).
+
+This main invariant is currently broken due to filling withdrawal buffer step after protocol fee subtraction. 
+
+For example in ETH rewards redistribution flow ([DepositQueue::receive](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L163)), after [protocol fee deduction](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L167-L168), remaining ETH rewards will be [first used to fill withdrawal buffer](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L176). In addition, before ETH rewards transferred to DepositQueue, they will also be used to refund gas.
+
+Recommendations:
+If Main invariant 2 is meant to be adhered as stated in readme, then consider removing the filling withdrawal buffer step during reward distribution, as withdrawal buffer is only for the user withdraw claim.  
