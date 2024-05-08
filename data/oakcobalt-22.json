@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Sweepers can keep all the bridge fees while providing low relayer fee (msg.value), causing failed token bridging on destination chain",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/22"
+}
