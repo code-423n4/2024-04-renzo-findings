@@ -60,7 +60,6 @@ There are multiple contracts that inherit Openzepplin's reentrancyGuardUpgradabl
 contracts/Bridge/L1/xRenzoBridge.sol
 ```solidity
     function initialize(
-...
 ```
 (https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Bridge/L1/xRenzoBridge.sol#L70)
 (2)
@@ -78,4 +77,98 @@ contracts/Withdraw/WithdrawQueue.sol
 
 Recommendations:
 Add `__ReentrancyGuard_init()` in `initialize()`.
+
+### Low-04 if baseToken has non-18 decimal, XERC20 will have incorrect token balance accounting in XERC20Lockbox.sol
+**Instances(1)**
+In contracts/Bridge/xERC20/contracts/XERC20Lockbox.sol,`_deposit` will directly use baseToken `_amount` as XERC20.mint amount. 
+
+This is problematic if baseToken doesn't have 18 decimals. Because XERC20 is [permissionless deployed from XERC20Factory.sol](https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Bridge/xERC20/contracts/XERC20Factory.sol#L74) will always have the default 18 decimal (inherited from ERC20Upgradeable), this means when baseToken decimal differs XERC20Lockbox needs to scale the decimal difference.
+
+```solidity
+//contracts/Bridge/xERC20/contracts/XERC20Lockbox.sol
+    function _deposit(address _to, uint256 _amount) internal {
+        if (!IS_NATIVE) {
+            ERC20.safeTransferFrom(msg.sender, address(this), _amount);
+        }
+       //@audit this only works if baseToken has 18 decimals
+|>      XERC20.mint(_to, _amount);
+        emit Deposit(_to, _amount);
+    }
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Bridge/xERC20/contracts/XERC20Lockbox.sol#L150)
+
+Recommendations:
+In xERC20LockBox::deposit, consider query the baseToken decimal and scale the amount value before passing to `XERC20.mint`.
+
+### Low-05 Unnecessary code in for-loop - Consider moving withdrawer setter outside the for-loop.
+**Instances(1)**
+In contracts/Delegation/OperatorDelegator.sol, `queueWithdrawals()` sets `queuedWithdrawalParams[0].withdrawer` to the same `address(this)` value in a for-loop. This is unnecessary and wastes runtime gas.
+
+```solidity
+//contracts/Delegation/OperatorDelegator.sol
+    function queueWithdrawals(
+        IERC20[] calldata tokens,
+        uint256[] calldata tokenAmounts
+    ) external nonReentrant onlyNativeEthRestakeAdmin returns (bytes32) {
+...
+        for (uint256 i; i < tokens.length; ) {
+...
+            // set withdrawer as this contract address
+            queuedWithdrawalParams[0].withdrawer = address(this);
+...
+            }
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Delegation/OperatorDelegator.sol#L229)
+Recommendations:
+Move `queuedWithdrawalParams[0].withdrawer = address(this)` outside of for-loop.
+
+### Low-06 `stakedButNotVerifiedEth` accoutning might be incorrect if the input validators' restake balance is greater than `_MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR`, `totalTVLs` might be incorrect
+**Instances(1)**
+In contracts/Delegation/OperatorDelegator.sol, `verifyWithdrawalCredentials()` will verify validator credentials and decrease the `stakeButNotVerifiedETH` as the validator's balance is verified. 
+```solidity
+//contracts/Delegation/OperatorDelegator.sol
+    function verifyWithdrawalCredentials(
+        uint64 oracleTimestamp,
+        BeaconChainProofs.StateRootProof calldata stateRootProof,
+        uint40[] calldata validatorIndices,
+        bytes[] calldata withdrawalCredentialProofs,
+        bytes32[][] calldata validatorFields
+    ) external onlyNativeEthRestakeAdmin {
+...
+        eigenPod.verifyWithdrawalCredentials(
+            oracleTimestamp,
+            stateRootProof,
+            validatorIndices,
+            withdrawalCredentialProofs,
+            validatorFields
+        );
+        // Decrement the staked but not verified ETH
+        for (uint256 i = 0; i < validatorFields.length; ) {
+            uint64 validatorCurrentBalanceGwei = BeaconChainProofs.getEffectiveBalanceGwei(
+                validatorFields[i]
+            );
+            //@audit In edge case: validatorCurrentBalanceGwei > _MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR, stakedButNotVerifiedEth will be subtracted with an incorrect value.
+|>          stakedButNotVerifiedEth -= (validatorCurrentBalanceGwei * GWEI_TO_WEI);
+...
+```
+(https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Delegation/OperatorDelegator.sol#L385)
+
+However, the issue is the accounting of `stakeButNotVerifiedETH` didn't account for an edge case. The edge case: validator's effectiveBalance(`validatorCurrentBalanceGwei`) is [greater than _MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR](https://github.com/Layr-Labs/eigenlayer-contracts/blob/15b679b08e7a3589ff83a5e84076ca4e0a00ec0b/src/contracts/pods/EigenPod.sol#L490-L491) (a preset cap in deployed EigenPod).
+
+```solidity
+//For Reference: EigenPod.sol
+    function _verifyWithdrawalCredentials(
+...
+        if (validatorEffectiveBalanceGwei > MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR) {
+            validatorInfo.restakedBalanceGwei = MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR;
+...
+```
+(https://github.com/Layr-Labs/eigenlayer-contracts/blob/15b679b08e7a3589ff83a5e84076ca4e0a00ec0b/src/contracts/pods/EigenPod.sol#L490-L491)
+
+This edge case will cause EigenPod to only use `_MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR` and write to validator accounting(validatorInfo) as opposed to `validatorCurrentBalanceGwei`. In this case, verified ETH is `_MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR`. But `stakeButNotVerifiedETH` will still subtract `validatorCurrentBalanceGwei`, which results in `stakeButNotVerifiedETH` being underestimated.
+
+In addition, since `stakeButNotVerifiedETH` is added into `getStakedETHBalance()` which gets added into `totalTVLs()`(RestakeManger.sol), this means `totalTVLs` is underestimated.
+
+Recommendations:
+Consider adding check in OperatorDelegator::verifyWithdrawalCredentials to query EigenPod and confirm the actual verified restakedBalance. Or cache `_MAX_RESTAKED_BALANCE_GWEI_PER_VALIDATOR` value to check against `validatorCurrentBalanceGwei`.
 
