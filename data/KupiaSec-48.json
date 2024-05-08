@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "The amount of unclaimed assets should be excluded in the `maxDepositTVL` check.",
+  "issueId": 48,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/48"
+}
