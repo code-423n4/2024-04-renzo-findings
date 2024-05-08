@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "3",
+  "title": "totalTVL will be incorrect due to wrong collateral index implementation",
+  "issueId": 16,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/16"
+}
