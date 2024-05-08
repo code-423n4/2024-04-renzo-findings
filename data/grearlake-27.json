@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "grearlake",
+  "risk": "3",
+  "title": "`calculateTVLs()` function return wrong total value in case of multiple token supported",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/27"
+}
