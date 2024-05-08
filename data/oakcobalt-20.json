@@ -1,0 +1,8 @@
+{
+  "contest": 372,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Vulnerable price check implementation cause revert and DOS based on current ezETH price conditions",
+  "issueId": 20,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/20"
+}
