@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Fassi_Security",
+  "risk": "3",
+  "title": "`calculateTVLs` returns wrong TVL.",
+  "issueId": 177,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/177",
+  "originalIssueId": 557,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/557"
+}
