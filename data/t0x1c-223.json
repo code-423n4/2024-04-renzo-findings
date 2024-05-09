@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "3",
+  "title": "Incorrect totalTVL calculation due to wrong index used inside `collateralTokens[]` results in choice of incorrect OperatorDelegator inside `chooseOperatorDelegatorForDeposit()`",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/223",
+  "originalIssueId": 58,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/58"
+}
