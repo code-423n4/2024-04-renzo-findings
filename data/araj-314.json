@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "araj",
+  "risk": "3",
+  "title": "`Wrong` parameter is passed while `retrieving` token balance from `strategy` in `OperatorDelegator ::getTokenBalanceFromStrategy`",
+  "issueId": 314,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/314",
+  "originalIssueId": 77,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/77"
+}
