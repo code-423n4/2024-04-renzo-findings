@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "m_Rassska",
+  "risk": "3",
+  "title": "`totalWithdrawalQueueValue` is calculated incorrectly",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/194",
+  "originalIssueId": 490,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/490"
+}
