@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "carlitox477",
+  "risk": "3",
+  "title": "Wrong calculation of `totalWithdrawalQueueValue` in `RestakeManager.calculateTVLs()` breaks deposits, withdrawals calculation of EzETH rate calculation",
+  "issueId": 156,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/156",
+  "originalIssueId": 842,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/842"
+}
