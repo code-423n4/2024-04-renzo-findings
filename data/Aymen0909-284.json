@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "Bridge router fees is not handled in L2 `xRenzoDeposit`",
+  "issueId": 284,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/284",
+  "originalIssueId": 984,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/984"
+}
