@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xAadi",
+  "risk": "3",
+  "title": "TVL Calculation Uses Incorrect Token Index When Accounting for Withdraw Queue Values in `RestakeManager` contract",
+  "issueId": 155,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/155",
+  "originalIssueId": 846,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/846"
+}
