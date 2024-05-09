@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "blutorque",
+  "risk": "2",
+  "title": "xRenzoDeposit is expected to use the most recently updated price, but due to hardcoded lastUpdateTimestamp to `block.timestamp` in a priceFeed used by RenzoOracleL2, it could possibly use the ezETH price diverge by more than 10%",
+  "issueId": 116,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/116",
+  "originalIssueId": 81,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/81"
+}
