@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zhaojohnson",
+  "risk": "3",
+  "title": "Incorrect loop index in calculateTVLs()",
+  "issueId": 278,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/278",
+  "originalIssueId": 291,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/291"
+}
