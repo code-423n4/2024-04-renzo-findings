@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "NentoR",
+  "risk": "3",
+  "title": "`RestakeManager::deposit()` does not guarantee whether funds will go into operator delegator or withdraw queue",
+  "issueId": 212,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/212",
+  "originalIssueId": 591,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/591"
+}
