@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x007",
+  "risk": "3",
+  "title": "Deposits would revert if amount is less than bufferToFill",
+  "issueId": 236,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/236",
+  "originalIssueId": 929,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/929"
+}
