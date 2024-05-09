@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "PNS",
+  "risk": "2",
+  "title": " Lack of slippage protection can impact the number of assets received during deposits and withdrawals",
+  "issueId": 346,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/346",
+  "originalIssueId": 779,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/779"
+}
