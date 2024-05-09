@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xAadi",
+  "risk": "3",
+  "title": "Potential Misuse of `queuedShares` Mapping in `getTokenBalanceFromStrategy` in `OperatorDelegator` contract",
+  "issueId": 295,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/295",
+  "originalIssueId": 886,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/886"
+}
