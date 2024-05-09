@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xnightfall",
+  "risk": "3",
+  "title": "`getTokenBalanceFromStrategy` will never consider the shares value in queuedShares for calculation of  balance from strategy",
+  "issueId": 299,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/299",
+  "originalIssueId": 708,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/708"
+}
