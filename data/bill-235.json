@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bill",
+  "risk": "2",
+  "title": "Unable to Deposit When bufferToFill Is Greater Than or Equal to Deposit Amount",
+  "issueId": 235,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/235",
+  "originalIssueId": 920,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/920"
+}
