@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "Out of bound error in calculateTVLs(), causing deposit() to revert.",
+  "issueId": 265,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/265",
+  "originalIssueId": 230,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/230"
+}
