@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xPwned",
+  "risk": "3",
+  "title": "Incorrect collateral token address may lead to inflated / deflated TVL value ",
+  "issueId": 141,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/141",
+  "originalIssueId": 1048,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1048"
+}
