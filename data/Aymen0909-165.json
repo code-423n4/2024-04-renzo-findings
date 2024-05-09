@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aymen0909",
+  "risk": "3",
+  "title": "Wrong collateral token address given to `renzoOracle.lookupTokenValue` when calculating `totalWithdrawalQueueValue`",
+  "issueId": 165,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/165",
+  "originalIssueId": 714,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/714"
+}
