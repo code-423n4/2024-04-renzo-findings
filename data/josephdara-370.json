@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "josephdara",
+  "risk": "2",
+  "title": "activateRestaking() and startDelayedWithdrawUnstakedETH() will always revert",
+  "issueId": 370,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/370",
+  "originalIssueId": 724,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/724"
+}
