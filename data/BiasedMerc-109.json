@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "BiasedMerc",
+  "risk": "2",
+  "title": "xRenzoDeposit::_deposit() incorrectly checks price staleness, deviating from other implementations",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/109",
+  "originalIssueId": 101,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/101"
+}
