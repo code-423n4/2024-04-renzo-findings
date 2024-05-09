@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "3",
+  "title": "Delayed Sweeps and Price Updates Can Lead To Discrepancy In Share Minting",
+  "issueId": 138,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/138",
+  "originalIssueId": 841,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/841"
+}
