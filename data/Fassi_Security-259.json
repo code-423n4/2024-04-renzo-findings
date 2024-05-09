@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Fassi_Security",
+  "risk": "2",
+  "title": "Rewards accumulated during withdraw queue are lost",
+  "issueId": 259,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/259",
+  "originalIssueId": 554,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/554"
+}
