@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zzykxx",
+  "risk": "3",
+  "title": "The amount of `xezETH` in circulation will not represent the amount of `ezETH` tokens 1:1",
+  "issueId": 145,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/145",
+  "originalIssueId": 686,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/686"
+}
