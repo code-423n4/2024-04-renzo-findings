@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adam-idarrha",
+  "risk": "3",
+  "title": "Inflation Attack via Exchange Rate Manipulation in RestakeManager",
+  "issueId": 64,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/64",
+  "originalIssueId": 947,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/947"
+}
