@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "3",
+  "title": "Wrong TVL calculation in `getTokenBalanceFromStrategy`",
+  "issueId": 309,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/309",
+  "originalIssueId": 386,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/386"
+}
