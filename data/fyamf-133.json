@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "3",
+  "title": "ezETH rate delay between L1 and L2 can lead to steal funds",
+  "issueId": 133,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/133",
+  "originalIssueId": 510,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/510"
+}
