@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "2",
+  "title": "Deposits on `RestakeManager` will fail when the full amount is used to fill the withdraw buffer",
+  "issueId": 238,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/238",
+  "originalIssueId": 993,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/993"
+}
