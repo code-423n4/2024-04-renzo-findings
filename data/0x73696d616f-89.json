@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x73696d616f",
+  "risk": "3",
+  "title": "`OperatorDelegator::completeQueuedWithdrawal()` will never work as DepositQueue::fillERC20withdrawBuffer() is onlyRestakeManager",
+  "issueId": 89,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/89",
+  "originalIssueId": 994,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/994"
+}
