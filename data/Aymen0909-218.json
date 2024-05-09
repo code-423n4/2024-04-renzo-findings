@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "`RestakeManager.deposit` will revert if buffer takes up all the deposited amount ",
+  "issueId": 218,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/218",
+  "originalIssueId": 713,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/713"
+}
