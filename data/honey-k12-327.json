@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "honey-k12",
+  "risk": "3",
+  "title": "The Total Value Locked (TVL) might be manipulated if withdrawals occur outside of Renzo. ",
+  "issueId": 327,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/327",
+  "originalIssueId": 839,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/839"
+}
