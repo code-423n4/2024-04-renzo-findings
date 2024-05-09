@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Tendency",
+  "risk": "2",
+  "title": "DoS in `RestakeManager::deposit` Function, Whenever a Token's Buffer Deficit is Greater Than or Equal to The Deposit Amount",
+  "issueId": 200,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/200",
+  "originalIssueId": 416,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/416"
+}
