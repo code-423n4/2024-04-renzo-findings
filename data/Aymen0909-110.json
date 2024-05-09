@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "Impossible to Pause Withdrawals in `WithdrawQueue` contract",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/110",
+  "originalIssueId": 712,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/712"
+}
