@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Not handling the failure of cross chain messaging",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/373",
+  "originalIssueId": 511,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/511"
+}
