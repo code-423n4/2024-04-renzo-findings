@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gesha17",
+  "risk": "3",
+  "title": "WithdrawalQueue token value is calculated incorrectly, leading to loss of funds and varios errors",
+  "issueId": 160,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/160",
+  "originalIssueId": 798,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/798"
+}
