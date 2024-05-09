@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "BiasedMerc",
+  "risk": "3",
+  "title": "OperatorDelegator::_recordGas() uses msg.sender rather than tx.origin",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/78",
+  "originalIssueId": 262,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/262"
+}
