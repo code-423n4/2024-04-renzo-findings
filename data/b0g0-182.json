@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "b0g0",
+  "risk": "2",
+  "title": "Token deposits below the buffer deficit will fail",
+  "issueId": 182,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/182",
+  "originalIssueId": 350,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/350"
+}
