@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "cu5t0mpeo",
+  "risk": "3",
+  "title": "When the contract is paused, the withdraw function can still work normally.",
+  "issueId": 128,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/128",
+  "originalIssueId": 296,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/296"
+}
