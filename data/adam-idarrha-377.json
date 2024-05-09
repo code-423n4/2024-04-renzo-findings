@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adam-idarrha",
+  "risk": "2",
+  "title": "Exclusion of ERC20 Rewards in DepositQueue TVL Calculation Enables Unfair Gain",
+  "issueId": 377,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/377",
+  "originalIssueId": 1018,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1018"
+}
