@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Mrxstrange",
+  "risk": "2",
+  "title": "Lack of access control allow attacker to mint()  with other user’s wallet balance",
+  "issueId": 74,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/74",
+  "originalIssueId": 340,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/340"
+}
