@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "eeshenggoh",
+  "risk": "3",
+  "title": "completeQueuedWithdrawal will always revert due to incorrect modifier implementation",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/91",
+  "originalIssueId": 57,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/57"
+}
