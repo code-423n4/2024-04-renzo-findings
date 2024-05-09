@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "GoatedAudits",
+  "risk": "2",
+  "title": "WithdrawQueue's buffer is not filled when ERC20 rewards are sweeped from `DepositQueue`",
+  "issueId": 324,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/324",
+  "originalIssueId": 374,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/374"
+}
