@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "2",
+  "title": "Arbitrage risk due to price discrepancies between L1 and L2",
+  "issueId": 134,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/134",
+  "originalIssueId": 1001,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1001"
+}
