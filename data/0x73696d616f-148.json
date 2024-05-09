@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x73696d616f",
+  "risk": "2",
+  "title": "The onlyNativeEthRestakeAdmin may never receive gas refunds from OperatorDelegator as anyone may forward the rewards to receive()",
+  "issueId": 148,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/148",
+  "originalIssueId": 1010,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1010"
+}
