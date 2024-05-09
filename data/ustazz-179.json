@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ustazz",
+  "risk": "3",
+  "title": "RestakeManager.sol#calculateTVLs() Inaccurate index variable in For-Loop for computing totalWithdrawalQueueValue",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/179",
+  "originalIssueId": 522,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/522"
+}
