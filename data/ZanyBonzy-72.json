@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ZanyBonzy",
+  "risk": "3",
+  "title": "optimismMintableXERC20.sol contract cannot mint or burn tokens",
+  "issueId": 72,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/72",
+  "originalIssueId": 192,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/192"
+}
