@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "golu",
+  "risk": "3",
+  "title": "`removeCollateralToken` function doesn't check Balance exist ",
+  "issueId": 102,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/102",
+  "originalIssueId": 819,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/819"
+}
