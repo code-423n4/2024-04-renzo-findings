@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "blutorque",
+  "risk": "2",
+  "title": "If the `bufferToFill` is higher than the deposited amount, the deposit txn will revert",
+  "issueId": 188,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/188",
+  "originalIssueId": 195,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/195"
+}
