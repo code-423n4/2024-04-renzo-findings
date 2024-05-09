@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gumgumzum",
+  "risk": "3",
+  "title": "Admin will not be able to complete withdrawals in `OperatorDelegator` if a collateral token buffer deficit needs to be filled",
+  "issueId": 90,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/90",
+  "originalIssueId": 1025,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1025"
+}
