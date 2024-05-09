@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "maxim371",
+  "risk": "3",
+  "title": "`RestakeManager.sol::calculateTVLs` has error in the withdraw queue value calculation",
+  "issueId": 178,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/178",
+  "originalIssueId": 526,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/526"
+}
