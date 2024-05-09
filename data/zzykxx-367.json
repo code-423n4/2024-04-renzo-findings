@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zzykxx",
+  "risk": "3",
+  "title": "Completing an ETH withdrawal from Eigenlayer will always revert",
+  "issueId": 367,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/367",
+  "originalIssueId": 683,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/683"
+}
