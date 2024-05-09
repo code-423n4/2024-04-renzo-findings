@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "2",
+  "title": "If the validator gets slashed before its credentials are verified then the stakedButNotVerifiedEth will be an incorrect value, misleading the TVL",
+  "issueId": 357,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/357",
+  "originalIssueId": 56,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/56"
+}
