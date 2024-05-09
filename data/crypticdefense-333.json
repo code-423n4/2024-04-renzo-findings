@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "crypticdefense",
+  "risk": "2",
+  "title": "`deposit` and `withdraw` should have slippage protection",
+  "issueId": 333,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/333",
+  "originalIssueId": 408,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/408"
+}
