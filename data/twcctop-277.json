@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "twcctop",
+  "risk": "2",
+  "title": "wrong index used in calculateTVLs, the withdraw queue value is not calculated correctly.",
+  "issueId": 277,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/277",
+  "originalIssueId": 302,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/302"
+}
