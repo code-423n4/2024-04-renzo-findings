@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Bigsam",
+  "risk": "2",
+  "title": " Impact of Inadequate Collateral Token Removal Handling on Token Minting and Redemption",
+  "issueId": 101,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/101",
+  "originalIssueId": 521,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/521"
+}
