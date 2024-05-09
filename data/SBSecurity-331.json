@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "SBSecurity",
+  "risk": "2",
+  "title": "No slippage in `RestakeManger::deposit` and `WithdrawQueue::withdraw`",
+  "issueId": 331,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/331",
+  "originalIssueId": 225,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/225"
+}
