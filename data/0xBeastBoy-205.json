@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xBeastBoy",
+  "risk": "2",
+  "title": "Potential Logic Issue with Deposit Amount Adjustment in RestakeManager contract",
+  "issueId": 205,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/205",
+  "originalIssueId": 481,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/481"
+}
