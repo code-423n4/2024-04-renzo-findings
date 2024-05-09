@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "calculateTVLs() fails to account for erc20 tokens in DepositQueue contract leading to incorrect TVL calculation",
+  "issueId": 387,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/387",
+  "originalIssueId": 253,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/253"
+}
