@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "2",
+  "title": "Due to absence of a try/catch block, `xRenzoBridge` ends up paying `relayerFee` to `ConnextReceiver` even if call to `xRenzoDeposit.udpatePrice()` reverts",
+  "issueId": 371,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/371",
+  "originalIssueId": 571,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/571"
+}
