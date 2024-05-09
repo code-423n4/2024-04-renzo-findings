@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "crypticdefense",
+  "risk": "3",
+  "title": "`OperatorDelegator::completeWithdrawals` will revert when token is not native ETH, causing blockage of manual withdrawals via `EigenLayer`",
+  "issueId": 365,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/365",
+  "originalIssueId": 405,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/405"
+}
