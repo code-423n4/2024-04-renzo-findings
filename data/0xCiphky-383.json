@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "DepositQueue ERC20 Rewards Not Handled Correctly",
+  "issueId": 383,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/383",
+  "originalIssueId": 532,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/532"
+}
