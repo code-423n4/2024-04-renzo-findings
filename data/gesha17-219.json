@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gesha17",
+  "risk": "2",
+  "title": "During deposit if buffer deficit is larger than deposit amount transactions will revert.",
+  "issueId": 219,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/219",
+  "originalIssueId": 722,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/722"
+}
