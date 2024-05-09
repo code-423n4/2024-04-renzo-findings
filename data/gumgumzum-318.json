@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gumgumzum",
+  "risk": "2",
+  "title": "Early redeem amounts calculations in withdraw procedure could cause the protocol to loose value",
+  "issueId": 318,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/318",
+  "originalIssueId": 932,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/932"
+}
