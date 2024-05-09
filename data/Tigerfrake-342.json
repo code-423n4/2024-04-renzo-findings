@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Minting exposes users to unlimited slippage",
+  "issueId": 342,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/342",
+  "originalIssueId": 79,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/79"
+}
