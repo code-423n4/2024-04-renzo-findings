@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "honey-k12",
+  "risk": "2",
+  "title": "Lack of slippage control on RestakeManager.deposit()",
+  "issueId": 340,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/340",
+  "originalIssueId": 735,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/735"
+}
