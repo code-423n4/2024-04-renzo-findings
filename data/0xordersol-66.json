@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xordersol",
+  "risk": "2",
+  "title": "First depositor can manipulate share price rendering protocol unusable",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/66",
+  "originalIssueId": 479,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/479"
+}
