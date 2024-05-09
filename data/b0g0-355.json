@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "b0g0",
+  "risk": "3",
+  "title": "Withdraws are impossible while ezETH is non-transferrable",
+  "issueId": 355,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/355",
+  "originalIssueId": 410,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/410"
+}
