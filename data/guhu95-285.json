@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "guhu95",
+  "risk": "2",
+  "title": "A negative LST rebase may cause `getAvailableToWithdraw` to revert blocking deposits and withdrawals",
+  "issueId": 285,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/285",
+  "originalIssueId": 653,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/653"
+}
