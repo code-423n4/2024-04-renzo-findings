@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "baz1ka",
+  "risk": "3",
+  "title": "User can't deposit `ERC20` collateral token into the `RestakeManager` if `WithdrawQueue` `bufferToFill` is too large.",
+  "issueId": 232,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/232",
+  "originalIssueId": 877,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/877"
+}
