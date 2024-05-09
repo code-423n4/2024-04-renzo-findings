@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "14si2o_Flint",
+  "risk": "3",
+  "title": "calculateTVLs does not correctly loop through all collateral tokens",
+  "issueId": 196,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/196",
+  "originalIssueId": 484,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/484"
+}
