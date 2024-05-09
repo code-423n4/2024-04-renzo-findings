@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Neon2835",
+  "risk": "3",
+  "title": "Users may not be able to use the deposit function of the RestakeManager contract to deposit ERC20 for a period of time",
+  "issueId": 227,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/227",
+  "originalIssueId": 785,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/785"
+}
