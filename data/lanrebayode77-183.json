@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "DOS in RestakeManager.deposit()",
+  "issueId": 183,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/183",
+  "originalIssueId": 266,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/266"
+}
