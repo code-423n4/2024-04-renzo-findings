@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Shaheen",
+  "risk": "2",
+  "title": "Lack of slippage control for users on deposit functions",
+  "issueId": 347,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/347",
+  "originalIssueId": 791,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/791"
+}
