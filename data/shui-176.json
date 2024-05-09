@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "shui",
+  "risk": "3",
+  "title": "Incorrect totalTVL calculation due to wrong use of the for loop index",
+  "issueId": 176,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/176",
+  "originalIssueId": 579,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/579"
+}
