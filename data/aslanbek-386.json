@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "aslanbek",
+  "risk": "2",
+  "title": "DepositQueue#sweepERC20 can be sandwiched",
+  "issueId": 386,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/386",
+  "originalIssueId": 275,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/275"
+}
