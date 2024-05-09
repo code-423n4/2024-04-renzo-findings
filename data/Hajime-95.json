@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Hajime",
+  "risk": "2",
+  "title": "User can't withdraw collateral after remove collateral tokens",
+  "issueId": 95,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/95",
+  "originalIssueId": 34,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/34"
+}
