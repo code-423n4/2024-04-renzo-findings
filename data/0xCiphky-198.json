@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "Deposits will always revert if the amount being deposited is less than the bufferToFill value",
+  "issueId": 198,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/198",
+  "originalIssueId": 396,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/396"
+}
