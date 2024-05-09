@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x73696d616f",
+  "risk": "2",
+  "title": "OperatorDelegator::receive() subtracts the gas refund from msg.value, which may underflow and not allow claiming rewards",
+  "issueId": 106,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/106",
+  "originalIssueId": 1021,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1021"
+}
