@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zzykxx",
+  "risk": "3",
+  "title": "`WithdrawQueue::claim()` will always lead to an instant change in the `ezETH` valuation",
+  "issueId": 244,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/244",
+  "originalIssueId": 695,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/695"
+}
