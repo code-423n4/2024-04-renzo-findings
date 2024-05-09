@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "siguint",
+  "risk": "2",
+  "title": "Incorrect totalTVL calculation",
+  "issueId": 143,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/143",
+  "originalIssueId": 997,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/997"
+}
