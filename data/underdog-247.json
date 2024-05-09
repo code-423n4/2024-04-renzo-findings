@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "underdog",
+  "risk": "3",
+  "title": "Exchange rate will be wrongly computed during the cooldown period",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/247",
+  "originalIssueId": 879,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/879"
+}
