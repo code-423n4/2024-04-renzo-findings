@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Shaheen",
+  "risk": "2",
+  "title": "stETH deposits will fail due to the 1-2 wei corner case",
+  "issueId": 389,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/389",
+  "originalIssueId": 748,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/748"
+}
