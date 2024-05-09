@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "3",
+  "title": "Oracle price handling in `xRenzoDeposit`",
+  "issueId": 117,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/117",
+  "originalIssueId": 389,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/389"
+}
