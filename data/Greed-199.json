@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Greed",
+  "risk": "3",
+  "title": "TVLs are calculated wrong, providing inaccurate prices among the entire protocol",
+  "issueId": 199,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/199",
+  "originalIssueId": 476,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/476"
+}
