@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "baz1ka",
+  "risk": "3",
+  "title": "Incorrect `RestakeManager` TVL calculation may result in calculating incorrect amounf of shares.",
+  "issueId": 159,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/159",
+  "originalIssueId": 809,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/809"
+}
