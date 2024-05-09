@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "jesjupyter",
+  "risk": "2",
+  "title": "Gas should refunded to `tx.origin` instead of `msg.sender`",
+  "issueId": 79,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/79",
+  "originalIssueId": 494,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/494"
+}
