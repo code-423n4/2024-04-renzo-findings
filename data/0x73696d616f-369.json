@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x73696d616f",
+  "risk": "3",
+  "title": "`OperatorDelegator::completeQueuedWithdrawal will never work due to triggering nonReentrant twice",
+  "issueId": 369,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/369",
+  "originalIssueId": 991,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/991"
+}
