@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bigtone",
+  "risk": "3",
+  "title": "`getTokenBalanceFromStrategy` always returns the underlying token amount from the amount of shares without considering the queued withdrawal shares",
+  "issueId": 305,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/305",
+  "originalIssueId": 499,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/499"
+}
