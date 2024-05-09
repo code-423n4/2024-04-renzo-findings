@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ilchovski",
+  "risk": "3",
+  "title": "Incorrect loop index in calculateTVLs() causes wrong TVL value and DOS",
+  "issueId": 150,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/150",
+  "originalIssueId": 950,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/950"
+}
