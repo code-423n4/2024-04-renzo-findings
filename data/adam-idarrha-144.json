@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adam-idarrha",
+  "risk": "3",
+  "title": "Erroneous TVL Calculation Risks User Funds Due to Oracle Mispricing",
+  "issueId": 144,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/144",
+  "originalIssueId": 992,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/992"
+}
