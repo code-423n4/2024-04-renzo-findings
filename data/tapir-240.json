@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Claimable tokens can inflate the exchange rate of ezETH ",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/240",
+  "originalIssueId": 91,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/91"
+}
