@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "Users will be unable to deposit ERC20 collateral if the amount they want to deposit <= bufferToFill",
+  "issueId": 187,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/187",
+  "originalIssueId": 209,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/209"
+}
