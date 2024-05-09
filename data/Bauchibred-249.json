@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Protocol wrongly incentivises users to front run each other in the case of heavy market turbulence since a user's deposited collateral token is not taken into account when executing withdrawal requests",
+  "issueId": 249,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/249",
+  "originalIssueId": 108,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/108"
+}
