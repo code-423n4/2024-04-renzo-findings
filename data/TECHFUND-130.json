@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "TECHFUND",
+  "risk": "2",
+  "title": "WithdrawQueue::pause/unpause feature is not functional",
+  "issueId": 130,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/130",
+  "originalIssueId": 52,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/52"
+}
