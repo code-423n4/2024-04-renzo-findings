@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "`mint` function in OptimismMintableXERC20 contract should hold some form of access control",
+  "issueId": 73,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/73",
+  "originalIssueId": 196,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/196"
+}
