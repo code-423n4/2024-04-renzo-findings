@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "mt030d",
+  "risk": "3",
+  "title": "Users are unable to deposit LST into Renzo unless the deposit amount exceeds the buffer deficit in the withdrawQueue",
+  "issueId": 206,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/206",
+  "originalIssueId": 491,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/491"
+}
