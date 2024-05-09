@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "3",
+  "title": "Queued withdrawals can fail due to `onlyRestakeManager` modifier on `fillERC20withdrawBuffer()`",
+  "issueId": 88,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/88",
+  "originalIssueId": 986,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/986"
+}
