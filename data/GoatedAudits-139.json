@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "GoatedAudits",
+  "risk": "3",
+  "title": "Current L2 deposit implmentation will lead to many damaging scenarios due to differences in xezETH and it's ezETH backing",
+  "issueId": 139,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/139",
+  "originalIssueId": 919,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/919"
+}
