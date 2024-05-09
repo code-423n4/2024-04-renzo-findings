@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Ocean_Sky",
+  "risk": "2",
+  "title": "No slippage control in deposit function",
+  "issueId": 330,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/330",
+  "originalIssueId": 200,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/200"
+}
