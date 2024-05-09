@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "m_Rassska",
+  "risk": "2",
+  "title": "DoS upon `totalWithdrawalQueueValue` computation",
+  "issueId": 169,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/169",
+  "originalIssueId": 689,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/689"
+}
