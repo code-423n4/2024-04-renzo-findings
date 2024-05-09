@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "mussucal",
+  "risk": "2",
+  "title": "RestakeManager.deposit() may revert.",
+  "issueId": 215,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/215",
+  "originalIssueId": 662,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/662"
+}
