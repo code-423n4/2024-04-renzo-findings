@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Shaheen",
+  "risk": "2",
+  "title": "All Collateral Tokens Deposits Less Than the `bufferToFill` Amount will Fail",
+  "issueId": 220,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/220",
+  "originalIssueId": 733,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/733"
+}
