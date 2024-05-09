@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ak1",
+  "risk": "3",
+  "title": "RestakeManager : calculateTVLs() - incorrect TVL calculation with totalWithdrawalQueueValue due to incorrect index usage for token",
+  "issueId": 153,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/153",
+  "originalIssueId": 876,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/876"
+}
