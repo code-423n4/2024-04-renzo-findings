@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0x73696d616f",
+  "risk": "3",
+  "title": "Users may game shares value of ezETH by frontrunning slashing events and withdrawing",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/248",
+  "originalIssueId": 1037,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1037"
+}
