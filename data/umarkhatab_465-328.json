@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "umarkhatab_465",
+  "risk": "2",
+  "title": "No slippage specifying parameters for RestakeManager#deposit will lead to users receiving less tokens ",
+  "issueId": 328,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/328",
+  "originalIssueId": 97,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/97"
+}
