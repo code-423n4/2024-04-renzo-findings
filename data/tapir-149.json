@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Admin refundable fees can be bypassed and all rewards can be sent to deposit queue",
+  "issueId": 149,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/149",
+  "originalIssueId": 128,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/128"
+}
