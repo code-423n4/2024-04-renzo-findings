@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "3",
+  "title": "ETH withdrawals from EigenLayer always fail due to `OperatorDelegator`'s nonReentrant `receive()`",
+  "issueId": 368,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/368",
+  "originalIssueId": 987,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/987"
+}
