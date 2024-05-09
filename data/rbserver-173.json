@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "rbserver",
+  "risk": "3",
+  "title": "`totalWithdrawalQueueValue += renzoOracle.lookupTokenValue(collateralTokens[i], collateralTokens[j].balanceOf(withdrawQueue))` in `RestakeManager.calculateTVLs` function is an implementation error",
+  "issueId": 173,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/173",
+  "originalIssueId": 640,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/640"
+}
