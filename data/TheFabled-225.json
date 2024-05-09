@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "TheFabled",
+  "risk": "3",
+  "title": "Incorrect Token Address Used in Total Withdrawal Queue Value Calculation",
+  "issueId": 225,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/225",
+  "originalIssueId": 78,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/78"
+}
