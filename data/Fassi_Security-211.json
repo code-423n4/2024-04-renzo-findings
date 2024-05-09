@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Fassi_Security",
+  "risk": "3",
+  "title": "Deposit functionality is broken due to invalid check in `operatorDelegator.deposit()`",
+  "issueId": 211,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/211",
+  "originalIssueId": 550,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/550"
+}
