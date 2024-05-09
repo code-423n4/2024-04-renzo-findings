@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "sweepERC20() does not fill up withdrawal buffer",
+  "issueId": 322,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/322",
+  "originalIssueId": 283,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/283"
+}
