@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "araj",
+  "risk": "2",
+  "title": "`Deposit` in `RestakeManager` will revert if `_amount` is less than `bufferToFill`",
+  "issueId": 192,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/192",
+  "originalIssueId": 31,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/31"
+}
