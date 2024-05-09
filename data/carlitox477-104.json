@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "carlitox477",
+  "risk": "2",
+  "title": "`OperatorDelegator._refundGas()` should use `call` instead of `send` for ETH transfer",
+  "issueId": 104,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/104",
+  "originalIssueId": 857,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/857"
+}
