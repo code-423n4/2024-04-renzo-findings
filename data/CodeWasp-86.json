@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "CodeWasp",
+  "risk": "3",
+  "title": "Infinite inflation of 1 wei due to rounding upon minting",
+  "issueId": 86,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/86",
+  "originalIssueId": 1052,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1052"
+}
