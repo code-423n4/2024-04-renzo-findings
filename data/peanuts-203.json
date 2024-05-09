@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "peanuts",
+  "risk": "3",
+  "title": "RestakeManager.calculateTVL does not calculate the TVL of withdrawQueue properly",
+  "issueId": 203,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/203",
+  "originalIssueId": 470,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/470"
+}
