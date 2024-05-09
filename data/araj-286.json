@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "araj",
+  "risk": "2",
+  "title": "`bridgeRouterFeeBps` is also getting transfered in `xRenzoDeposit::sweep()`",
+  "issueId": 286,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/286",
+  "originalIssueId": 331,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/331"
+}
