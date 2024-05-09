@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "3",
+  "title": "wrong index for the collateral token array",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/273",
+  "originalIssueId": 357,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/357"
+}
