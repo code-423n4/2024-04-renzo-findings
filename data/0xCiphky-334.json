@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "No Slippage Protection On Deposits And Withdrawals",
+  "issueId": 334,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/334",
+  "originalIssueId": 531,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/531"
+}
