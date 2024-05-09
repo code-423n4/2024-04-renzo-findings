@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "araj",
+  "risk": "2",
+  "title": "`ERC20 token` accumulated in `depositQueue` is not included while calculating TVL",
+  "issueId": 382,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/382",
+  "originalIssueId": 670,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/670"
+}
