@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Deposits lesser than buffer will revert",
+  "issueId": 190,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/190",
+  "originalIssueId": 65,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/65"
+}
