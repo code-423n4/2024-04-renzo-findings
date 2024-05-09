@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Withdraw queue token balances are accounted inadvertently when calculating the TVL",
+  "issueId": 222,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/222",
+  "originalIssueId": 55,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/55"
+}
