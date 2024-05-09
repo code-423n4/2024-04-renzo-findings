@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bill",
+  "risk": "2",
+  "title": "`getAvailableToWithdraw` Can Revert for Assets Like stETH Due to Their Rebase Mechanism",
+  "issueId": 290,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/290",
+  "originalIssueId": 941,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/941"
+}
