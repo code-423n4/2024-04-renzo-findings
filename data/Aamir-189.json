@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aamir",
+  "risk": "2",
+  "title": "`RestakeManager::deposit(...)` will cause DoS if amount deposited is less than or equal to withdraw queue deficit.",
+  "issueId": 189,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/189",
+  "originalIssueId": 89,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/89"
+}
