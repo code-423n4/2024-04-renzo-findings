@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "If ezETH transfer is paused, funds cannot be withdrawn from the protocol.",
+  "issueId": 351,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/351",
+  "originalIssueId": 757,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/757"
+}
