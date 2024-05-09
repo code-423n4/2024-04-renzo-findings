@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "honey-k12",
+  "risk": "3",
+  "title": "Incorrect Token Indexing in `calculateTVLs()` Leads to False Total Value Locked (TVL) Calculation",
+  "issueId": 168,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/168",
+  "originalIssueId": 691,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/691"
+}
