@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "aslanbek",
+  "risk": "2",
+  "title": "Locking withdrawal price at the moment of request can be abused by depositors to frontrun slashings",
+  "issueId": 241,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/241",
+  "originalIssueId": 174,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/174"
+}
