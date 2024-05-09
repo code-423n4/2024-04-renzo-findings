@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ilchovski",
+  "risk": "3",
+  "title": "WithdrawQueueAdmin is not able to pause withdrawals",
+  "issueId": 123,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/123",
+  "originalIssueId": 634,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/634"
+}
