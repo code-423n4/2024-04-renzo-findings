@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gjaldon",
+  "risk": "2",
+  "title": "Funds sent by the Restake Admin to the Delayed Withdrawal Router are prone to sandwiching",
+  "issueId": 146,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/146",
+  "originalIssueId": 443,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/443"
+}
