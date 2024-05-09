@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "jokr",
+  "risk": "3",
+  "title": "Incorrect TVL calculation ",
+  "issueId": 312,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/312",
+  "originalIssueId": 164,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/164"
+}
