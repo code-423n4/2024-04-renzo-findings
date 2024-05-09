@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "FastChecker",
+  "risk": "3",
+  "title": "Incorrect Logic in `RestakeManager.sol#calculateTVLs()` function",
+  "issueId": 162,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/162",
+  "originalIssueId": 747,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/747"
+}
