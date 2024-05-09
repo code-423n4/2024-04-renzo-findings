@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zigtur",
+  "risk": "3",
+  "title": "Total `WithdrawalQueue` value is incorrectly accounted in the total TVL due to variable confusion",
+  "issueId": 268,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/268",
+  "originalIssueId": 261,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/261"
+}
