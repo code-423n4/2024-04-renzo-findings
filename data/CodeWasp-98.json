@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "CodeWasp",
+  "risk": "3",
+  "title": "Unsafe removal of collateral tokens can lead to TVL loss",
+  "issueId": 98,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/98",
+  "originalIssueId": 906,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/906"
+}
