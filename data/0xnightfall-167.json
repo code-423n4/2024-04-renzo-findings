@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xnightfall",
+  "risk": "3",
+  "title": "WithdrawQueue Value calculated wrongly in calculateTVL resulting in wrong TVL",
+  "issueId": 167,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/167",
+  "originalIssueId": 692,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/692"
+}
