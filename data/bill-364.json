@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bill",
+  "risk": "3",
+  "title": "Incorrect Updates to stakedButNotVerifiedEth May Result in an Inflated TVL",
+  "issueId": 364,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/364",
+  "originalIssueId": 862,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/862"
+}
