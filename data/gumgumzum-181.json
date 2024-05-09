@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gumgumzum",
+  "risk": "2",
+  "title": "Users cannot deposit less than the withdraw buffer deficit for the deposited collateral token",
+  "issueId": 181,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/181",
+  "originalIssueId": 352,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/352"
+}
