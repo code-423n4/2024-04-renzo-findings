@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "WildSniper",
+  "risk": "2",
+  "title": "`DepositQueue` contract hold ERC20 tokens as rewards but not accounted for in TVL in `RestakeManager` contract leading to lower TVL calculation compared to true TVL",
+  "issueId": 378,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/378",
+  "originalIssueId": 959,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/959"
+}
