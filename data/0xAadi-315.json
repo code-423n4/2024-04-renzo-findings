@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xAadi",
+  "risk": "3",
+  "title": "Missing MaxTokenTVL Check in `depositTokenRewardsFromProtocol` function in `RestakeManager` contract",
+  "issueId": 315,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/315",
+  "originalIssueId": 867,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/867"
+}
