@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "eeshenggoh",
+  "risk": "3",
+  "title": "Wrong amount of TVL is produced, causing unfair underlying asset conversion",
+  "issueId": 208,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/208",
+  "originalIssueId": 23,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/23"
+}
