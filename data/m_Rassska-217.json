@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "m_Rassska",
+  "risk": "2",
+  "title": "DoS upon depositing to `operatorDelegator` ",
+  "issueId": 217,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/217",
+  "originalIssueId": 700,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/700"
+}
