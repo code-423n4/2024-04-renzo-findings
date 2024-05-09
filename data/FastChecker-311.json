@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "Requested withdrawal can be impossible to settle due to EigenLayer shares value appreciate when there are idle funds in deposit pool",
+  "issueId": 311,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/311",
+  "originalIssueId": 745,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/745"
+}
