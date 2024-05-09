@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "kennedy1030",
+  "risk": "3",
+  "title": "`queuedShares[address(this)] == 0` should be replaced to `queuedShares[address(token)] == 0` in `OperatorDelegator.getTokenBalanceFromStrategy()`.",
+  "issueId": 302,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/302",
+  "originalIssueId": 621,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/621"
+}
