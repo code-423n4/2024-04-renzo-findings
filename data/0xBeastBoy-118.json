@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xBeastBoy",
+  "risk": "3",
+  "title": "getMintRate function returning stale price in xRenzoDeposit contract",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/118",
+  "originalIssueId": 519,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/519"
+}
