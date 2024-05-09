@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "`xRenzoBridge::xReceive()`is missing `try-catch` revert message handling as recommended.",
+  "issueId": 374,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/374",
+  "originalIssueId": 438,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/438"
+}
