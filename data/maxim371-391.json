@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "maxim371",
+  "risk": "3",
+  "title": "`xRenzoDeposit::_trade` has no slippage protection",
+  "issueId": 391,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/391",
+  "originalIssueId": 559,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/559"
+}
