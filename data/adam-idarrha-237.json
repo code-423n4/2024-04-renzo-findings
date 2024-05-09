@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adam-idarrha",
+  "risk": "2",
+  "title": "non large LST Deposits May Fail Due to Withdraw Buffer in StakeManager",
+  "issueId": 237,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/237",
+  "originalIssueId": 962,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/962"
+}
