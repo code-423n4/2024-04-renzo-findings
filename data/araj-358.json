@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "araj",
+  "risk": "3",
+  "title": "`stakedButNotVerifiedEth` is not updated in `OperatorDelegator::verifyAndProcessWithdrawals()`",
+  "issueId": 358,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/358",
+  "originalIssueId": 191,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/191"
+}
