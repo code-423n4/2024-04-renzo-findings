@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zzykxx",
+  "risk": "2",
+  "title": "A validator getting slashed while it's not verified leads to the TVL being accounted incorrectly",
+  "issueId": 363,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/363",
+  "originalIssueId": 687,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/687"
+}
