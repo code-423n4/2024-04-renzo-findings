@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "crypticdefense",
+  "risk": "2",
+  "title": "Allowing users to deposit and withdraw different tokens may create issues if price of collateral drops",
+  "issueId": 253,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/253",
+  "originalIssueId": 420,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/420"
+}
