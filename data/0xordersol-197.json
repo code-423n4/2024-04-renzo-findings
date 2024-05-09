@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xordersol",
+  "risk": "3",
+  "title": "Incorrect calculateTVLs formula ",
+  "issueId": 197,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/197",
+  "originalIssueId": 478,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/478"
+}
