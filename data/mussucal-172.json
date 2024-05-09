@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "mussucal",
+  "risk": "2",
+  "title": "Calculation of 'totalWithdrawalQueueValue' in RestakeManager.calculateTVLs() is flawed.",
+  "issueId": 172,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/172",
+  "originalIssueId": 651,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/651"
+}
