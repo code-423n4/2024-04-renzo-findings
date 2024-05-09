@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Audinarey",
+  "risk": "3",
+  "title": "Malicious user can frontrun first depositor to block all protocol deposits leading to a protocol-wide DOS",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/63",
+  "originalIssueId": 866,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/866"
+}
