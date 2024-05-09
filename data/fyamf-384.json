@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Incorrect TVL calculation in `DepositQueue`",
+  "issueId": 384,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/384",
+  "originalIssueId": 384,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/384"
+}
