@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Sathish9098",
+  "risk": "2",
+  "title": "The oracle price always stale",
+  "issueId": 107,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/107",
+  "originalIssueId": 830,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/830"
+}
