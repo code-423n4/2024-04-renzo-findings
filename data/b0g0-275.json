@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "b0g0",
+  "risk": "3",
+  "title": "`RestakeManager::calculateTVLs`  incorrectly calculates the withdraw queue balances, leading to heavily distorted TVL results",
+  "issueId": 275,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/275",
+  "originalIssueId": 338,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/338"
+}
