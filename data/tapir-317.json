@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Completing queued withdrawals from EigenLayer can be sandwiched to block withdrawals at least a week ",
+  "issueId": 317,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/317",
+  "originalIssueId": 60,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/60"
+}
