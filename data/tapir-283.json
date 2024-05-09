@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "2",
+  "title": "Withdrawing stETH leaves the yield accrued in the cooldown period, disincentivizing users to withdraw stETH",
+  "issueId": 283,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/283",
+  "originalIssueId": 94,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/94"
+}
