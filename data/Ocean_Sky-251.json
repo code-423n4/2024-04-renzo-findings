@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Ocean_Sky",
+  "risk": "3",
+  "title": "Malicious user can deposit low valued collateral LST in order to get higher valued collateral LST ",
+  "issueId": 251,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/251",
+  "originalIssueId": 298,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/298"
+}
