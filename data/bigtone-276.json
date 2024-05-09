@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bigtone",
+  "risk": "3",
+  "title": "The wrong `collateralTokens` index disrupts `calculateTVLs` function in the `RestakeManager` contract.",
+  "issueId": 276,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/276",
+  "originalIssueId": 311,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/311"
+}
