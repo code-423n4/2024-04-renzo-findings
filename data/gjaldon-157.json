@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gjaldon",
+  "risk": "2",
+  "title": "Restake Admin's gas refunds can be blocked",
+  "issueId": 157,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/157",
+  "originalIssueId": 570,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/570"
+}
