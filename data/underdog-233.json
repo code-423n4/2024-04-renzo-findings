@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "underdog",
+  "risk": "2",
+  "title": "Non-native deposits to operator delegator will always fail when the deposit amount is smaller than the buffer deficit",
+  "issueId": 233,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/233",
+  "originalIssueId": 880,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/880"
+}
