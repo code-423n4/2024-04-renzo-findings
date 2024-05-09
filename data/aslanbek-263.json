@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "aslanbek",
+  "risk": "3",
+  "title": "Wrong parameter in calculateTVLs results in every WithdrawalQueue token accounter with the price of the first one",
+  "issueId": 263,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/263",
+  "originalIssueId": 169,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/169"
+}
