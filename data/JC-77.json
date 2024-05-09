@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "JC",
+  "risk": "3",
+  "title": "Unrestricted Minting and Burning Privileges enable an attacker to manipulate the token supply",
+  "issueId": 77,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/77",
+  "originalIssueId": 1047,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1047"
+}
