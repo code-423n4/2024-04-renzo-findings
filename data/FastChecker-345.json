@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "No slippage control in the `RestakeManager.sol#deposit()` and `WithdrawQueue.sol#withdraw()` functions.",
+  "issueId": 345,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/345",
+  "originalIssueId": 756,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/756"
+}
