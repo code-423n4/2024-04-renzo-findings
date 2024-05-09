@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "kinda_very_good",
+  "risk": "3",
+  "title": "The total tvl returned in RestakeManager::calculateTvls is always wrong ",
+  "issueId": 158,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/158",
+  "originalIssueId": 828,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/828"
+}
