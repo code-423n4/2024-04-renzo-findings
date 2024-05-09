@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Aamir",
+  "risk": "3",
+  "title": "RestakeManager's `CalculateTVLs(...)` Function Incorrectly Computes TVL",
+  "issueId": 262,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/262",
+  "originalIssueId": 113,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/113"
+}
