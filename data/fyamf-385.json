@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Vulnerability to sandwich attack in `sweepERC20`",
+  "issueId": 385,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/385",
+  "originalIssueId": 382,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/382"
+}
