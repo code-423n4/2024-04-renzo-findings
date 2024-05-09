@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "withdraws can’t be paused",
+  "issueId": 127,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/127",
+  "originalIssueId": 409,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/409"
+}
