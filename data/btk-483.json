@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "btk",
+  "risk": "2",
+  "title": "Missing slippage check on withdraw",
+  "issueId": 483,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/483",
+  "originalIssueId": 421,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/421"
+}
