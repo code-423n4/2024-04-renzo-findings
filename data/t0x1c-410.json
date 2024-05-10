@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "2",
+  "title": "`removeOperatorDelegator()` does not check if the OD being removed has any existing staked balance",
+  "issueId": 410,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/410",
+  "originalIssueId": 440,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/440"
+}
