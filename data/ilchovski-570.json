@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ilchovski",
+  "risk": "3",
+  "title": "ReentrancyGuard causes all native currency funds to get locked inside the EigenPod contract",
+  "issueId": 570,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/570",
+  "originalIssueId": 498,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/498"
+}
