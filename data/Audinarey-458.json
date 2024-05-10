@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Audinarey",
+  "risk": "3",
+  "title": "Removing an Operator delegator can cause funds to be stuck in EigenLayer",
+  "issueId": 458,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/458",
+  "originalIssueId": 663,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/663"
+}
