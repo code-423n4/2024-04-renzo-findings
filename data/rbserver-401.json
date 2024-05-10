@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "rbserver",
+  "risk": "2",
+  "title": "`RestakeManager.calculateTVLs` function does not increase `totalTVL` by value of `DepositQueue` contract's collateral tokens",
+  "issueId": 401,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/401",
+  "originalIssueId": 649,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/649"
+}
