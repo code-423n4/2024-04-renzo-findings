@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "rbserver",
+  "risk": "2",
+  "title": "`RenzoOracle.lookupTokenValue` and `RenzoOracle.lookupTokenAmountFromValue` functions can use stale price",
+  "issueId": 469,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/469",
+  "originalIssueId": 647,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/647"
+}
