@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "When withdrawing ezETH for LST collateral, some collateral will be stuck if the LST is rebasing",
+  "issueId": 467,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/467",
+  "originalIssueId": 472,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/472"
+}
