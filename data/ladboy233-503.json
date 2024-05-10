@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Setting _proxyAdmin as smart contract will leads to issue in xerc20 cross-chain flow.",
+  "issueId": 503,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/503",
+  "originalIssueId": 767,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/767"
+}
