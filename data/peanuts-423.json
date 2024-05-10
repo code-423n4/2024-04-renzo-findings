@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "DepositQueue can be sandwiched to extract more value from ezETH",
+  "issueId": 423,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/423",
+  "originalIssueId": 786,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/786"
+}
