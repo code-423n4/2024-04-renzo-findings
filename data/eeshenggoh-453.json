@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "eeshenggoh",
+  "risk": "3",
+  "title": "Complications if OperatorDelegator was removed with staked funds in Eigenlayer",
+  "issueId": 453,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/453",
+  "originalIssueId": 83,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/83"
+}
