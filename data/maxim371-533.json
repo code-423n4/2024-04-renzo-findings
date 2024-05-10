@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "maxim371",
+  "risk": "2",
+  "title": "`RestakeManager.sol::chooseOperatorDelegatorForDeposit` underestimate the threshhold calculation",
+  "issueId": 533,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/533",
+  "originalIssueId": 529,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/529"
+}
