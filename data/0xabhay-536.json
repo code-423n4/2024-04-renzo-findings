@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xabhay",
+  "risk": "2",
+  "title": "Failure of Deposit Function Due to WETH Allowance Handling on Certain Chains",
+  "issueId": 536,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/536",
+  "originalIssueId": 362,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/362"
+}
