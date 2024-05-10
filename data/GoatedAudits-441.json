@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "GoatedAudits",
+  "risk": "3",
+  "title": "A Malicious ezETH holder can unfairly avoid the loss due to validator penalties or slashing by sandwiching eigenlayer updates",
+  "issueId": 441,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/441",
+  "originalIssueId": 812,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/812"
+}
