@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "Stakers can frontrun slashing and avoid validator penalties",
+  "issueId": 432,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/432",
+  "originalIssueId": 475,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/475"
+}
