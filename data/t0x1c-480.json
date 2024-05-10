@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "2",
+  "title": "Change of strategy via `setTokenStrategy()` will cause incorrect TVL calculation",
+  "issueId": 480,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/480",
+  "originalIssueId": 395,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/395"
+}
