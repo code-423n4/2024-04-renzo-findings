@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "2",
+  "title": "Withdrawals can't be paused as stated in the readme",
+  "issueId": 568,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/568",
+  "originalIssueId": 257,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/257"
+}
