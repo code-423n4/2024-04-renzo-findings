@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "GoatedAudits",
+  "risk": "3",
+  "title": "All staked funds are un-redeemable when operator calls `DelegationManager.undelegate()`",
+  "issueId": 457,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/457",
+  "originalIssueId": 601,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/601"
+}
