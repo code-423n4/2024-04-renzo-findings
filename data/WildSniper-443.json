@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "WildSniper",
+  "risk": "2",
+  "title": "Stakers can frontrun validators penalties and slashing events with a withdrawal request in order to avoid the loss, this is possible if the deposit pool has enough liquidity available.",
+  "issueId": 443,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/443",
+  "originalIssueId": 999,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/999"
+}
