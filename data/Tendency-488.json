@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Tendency",
+  "risk": "2",
+  "title": "A Strategy Staked LRT Isn't Accounted For When Updating The Token's EigenLayer Stratgy",
+  "issueId": 488,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/488",
+  "originalIssueId": 824,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/824"
+}
