@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "TVLs incorrectly calculated in certain cases",
+  "issueId": 399,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/399",
+  "originalIssueId": 535,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/535"
+}
