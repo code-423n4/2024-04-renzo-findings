@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "hunter_w3b",
+  "risk": "2",
+  "title": "Execution Layer rewards are lost",
+  "issueId": 499,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/499",
+  "originalIssueId": 777,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/777"
+}
