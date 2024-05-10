@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adeolu",
+  "risk": "2",
+  "title": "linkRouterClient.getFee() can return 0 if message is invalid. ",
+  "issueId": 430,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/430",
+  "originalIssueId": 517,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/517"
+}
