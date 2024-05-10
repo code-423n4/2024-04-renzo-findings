@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "aslanbek",
+  "risk": "2",
+  "title": "stETH 1-wei transfer issue is not respected and may lead to reverts",
+  "issueId": 510,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/510",
+  "originalIssueId": 419,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/419"
+}
