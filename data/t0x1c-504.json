@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "2",
+  "title": "Gas refund amount as well as staking start time are dependent upon admin's choice of call between `stakeEthFromQueue()` and `stakeEthFromQueueMulti()`",
+  "issueId": 504,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/504",
+  "originalIssueId": 47,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/47"
+}
