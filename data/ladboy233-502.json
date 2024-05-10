@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "L1::xRenzoBridge and L2::xRenzoBridge uses the block.timestamp as dependency, which can cause issue.",
+  "issueId": 502,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/502",
+  "originalIssueId": 863,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/863"
+}
