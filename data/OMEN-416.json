@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "OMEN",
+  "risk": "2",
+  "title": "Reward ETH can be exploited by front runner ",
+  "issueId": 416,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/416",
+  "originalIssueId": 710,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/710"
+}
