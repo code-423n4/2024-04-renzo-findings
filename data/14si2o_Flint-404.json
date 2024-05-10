@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "14si2o_Flint",
+  "risk": "3",
+  "title": "removeCollateralToken breaks calculateTVLs function ",
+  "issueId": 404,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/404",
+  "originalIssueId": 486,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/486"
+}
