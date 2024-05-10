@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Protocol is not compatible with Weird tokens as it claims",
+  "issueId": 507,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/507",
+  "originalIssueId": 80,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/80"
+}
