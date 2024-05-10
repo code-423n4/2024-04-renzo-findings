@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "TECHFUND",
+  "risk": "2",
+  "title": "RestakeManager::calculateTVLs() can be incorrect due to admin of collateralTokens list ",
+  "issueId": 405,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/405",
+  "originalIssueId": 186,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/186"
+}
