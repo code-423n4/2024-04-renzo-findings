@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xabhay",
+  "risk": "2",
+  "title": "Exploiting Slashing Events to Front-Run Withdrawals and Inflate Shares Owed",
+  "issueId": 444,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/444",
+  "originalIssueId": 590,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/590"
+}
