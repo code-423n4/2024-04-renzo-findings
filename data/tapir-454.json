@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Delegatees can undelegate themselves to drop the ezETH exchange rate drastically",
+  "issueId": 454,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/454",
+  "originalIssueId": 336,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/336"
+}
