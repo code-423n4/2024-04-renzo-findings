@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "aslanbek",
+  "risk": "3",
+  "title": "Price feed staleness check of exactly 1 day is too small and will lead to reverts",
+  "issueId": 471,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/471",
+  "originalIssueId": 173,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/173"
+}
