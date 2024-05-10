@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "guhu95",
+  "risk": "2",
+  "title": "Undelegation by the operator in EigenLayer causes loss of entire TVL",
+  "issueId": 459,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/459",
+  "originalIssueId": 721,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/721"
+}
