@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Topmark",
+  "risk": "3",
+  "title": "Wrong Operator Delegator Choice For Deposit and Withdrawal Due to Implementation Error",
+  "issueId": 532,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/532",
+  "originalIssueId": 170,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/170"
+}
