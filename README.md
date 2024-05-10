@@ -58,9 +58,9 @@ Note: Adding or changing labels other than those in this list will be automatica
 
 ## 2. Respond to curated Low/Non-critical submissions
 
-### [Low/Non-critical submissions for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3A"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+label%3A"QA+(Quality+Assurance)")
+### [Low/Non-critical submissions for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3A"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+label%3A"QA+(Quality+Assurance)"+sort%3Acreated-asc)
 
-<sup>This curated list will shorten as you work. [View the original, longer list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"QA+(Quality+Assurance)")</sup>
+<sup>This curated list will shorten as you work. [View the original, longer list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"QA+(Quality+Assurance)"+sort%3Acreated-asc)</sup>
 
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - Add the `sponsor disputed` label to any reports that you think should be _completely_ disregarded by the judge, i.e. the report contains no valid findings at all.
