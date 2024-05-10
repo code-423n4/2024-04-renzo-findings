@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ilchovski",
+  "risk": "2",
+  "title": "Missing slippage check on deposit and withdraw functions",
+  "issueId": 481,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/481",
+  "originalIssueId": 834,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/834"
+}
