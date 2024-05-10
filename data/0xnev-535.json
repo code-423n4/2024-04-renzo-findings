@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xnev",
+  "risk": "2",
+  "title": "Incorrect allocation check when choosing operator delegators",
+  "issueId": 535,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/535",
+  "originalIssueId": 1039,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1039"
+}
