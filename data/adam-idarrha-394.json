@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "adam-idarrha",
+  "risk": "3",
+  "title": "wrong calculation in tvl allows malicious user to steal users funds",
+  "issueId": 394,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/394",
+  "originalIssueId": 1053,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1053"
+}
