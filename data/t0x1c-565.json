@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "t0x1c",
+  "risk": "3",
+  "title": "Incomplete implementation of pause functionality inside `WithdrawQueue.sol` results in it having no effect on the contract's methods",
+  "issueId": 565,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/565",
+  "originalIssueId": 29,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/29"
+}
