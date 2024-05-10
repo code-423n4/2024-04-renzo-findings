@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bill",
+  "risk": "3",
+  "title": "The price of ezETH could be manipulated by the first staker.",
+  "issueId": 501,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/501",
+  "originalIssueId": 912,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/912"
+}
