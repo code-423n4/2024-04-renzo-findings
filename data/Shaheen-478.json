@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Shaheen",
+  "risk": "2",
+  "title": "Update in strategy will cause wrong calculation",
+  "issueId": 478,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/478",
+  "originalIssueId": 885,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/885"
+}
