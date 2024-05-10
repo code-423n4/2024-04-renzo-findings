@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "unix515",
+  "risk": "2",
+  "title": "EigenLayer share rate can be massively inflated by griefing attacks, resulting in OperatorDelegator receiving fewer shares.",
+  "issueId": 476,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/476",
+  "originalIssueId": 1002,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1002"
+}
