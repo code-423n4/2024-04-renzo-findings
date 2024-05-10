@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "inzinko",
+  "risk": "2",
+  "title": "Incorrect Calculations Of total Value Locked amount may lead to incorrect ezETH token mints",
+  "issueId": 451,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/451",
+  "originalIssueId": 916,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/916"
+}
