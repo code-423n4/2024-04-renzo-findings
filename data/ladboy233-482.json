@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "`WithdrawQueue::withdraw()` is missing slippage control with redeeming the amount in ETH.",
+  "issueId": 482,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/482",
+  "originalIssueId": 549,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/549"
+}
