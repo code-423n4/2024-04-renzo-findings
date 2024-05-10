@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "4rdiii",
+  "risk": "2",
+  "title": "Using a Fixed `MAX_TIME_WINDOW` for Multiple Tokens is not Recommended",
+  "issueId": 470,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/470",
+  "originalIssueId": 167,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/167"
+}
