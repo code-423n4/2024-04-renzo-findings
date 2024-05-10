@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xAadi",
+  "risk": "2",
+  "title": "`setTokenStrategy()` Function Lacks Active Deposit Check Before updating strategy in `OperatorDelegator` contract",
+  "issueId": 486,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/486",
+  "originalIssueId": 963,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/963"
+}
