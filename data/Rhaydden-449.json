@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Rhaydden",
+  "risk": "3",
+  "title": "Incorrect Minting Calculation in Deposit Functions Due to Stale Total Value Locked (TVL)",
+  "issueId": 449,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/449",
+  "originalIssueId": 837,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/837"
+}
