@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "honey-k12",
+  "risk": "2",
+  "title": "Sub-optimal method for determining the stETH exchange rate, potentially leading to inaccuracies in the  amount of `ezETH` minted via `deposit()`",
+  "issueId": 511,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/511",
+  "originalIssueId": 666,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/666"
+}
