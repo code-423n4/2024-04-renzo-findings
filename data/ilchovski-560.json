@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ilchovski",
+  "risk": "2",
+  "title": "possibility of DOS in functions that use calculateTVLs() due to scalability issues",
+  "issueId": 560,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/560",
+  "originalIssueId": 677,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/677"
+}
