@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "guhu95",
+  "risk": "2",
+  "title": "Withdrawal amount calculation timing causes yield leakage and asset imbalance",
+  "issueId": 466,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/466",
+  "originalIssueId": 661,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/661"
+}
