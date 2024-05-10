@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Depositing bridged ETH can be impossible due to max TVL limit in restake manager",
+  "issueId": 393,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/393",
+  "originalIssueId": 227,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/227"
+}
