@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "John_Femi",
+  "risk": "3",
+  "title": "allowing any range of output tokens could put pressure on some tokens than others",
+  "issueId": 402,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/402",
+  "originalIssueId": 953,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/953"
+}
