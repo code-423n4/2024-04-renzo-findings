@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "XDZIBECX",
+  "risk": "2",
+  "title": "Incorrect Handling of Basis Points in Allocation Calculations",
+  "issueId": 530,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/530",
+  "originalIssueId": 907,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/907"
+}
