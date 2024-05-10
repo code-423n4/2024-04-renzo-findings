@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Sabit",
+  "risk": "2",
+  "title": "Inaccurate gas used calculation in stakeEthFromQueue function",
+  "issueId": 506,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/506",
+  "originalIssueId": 403,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/403"
+}
