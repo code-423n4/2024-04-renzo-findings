@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Audinarey",
+  "risk": "2",
+  "title": "deposits can be made with ODs that have exceeded their max TVL",
+  "issueId": 529,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/529",
+  "originalIssueId": 1036,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1036"
+}
