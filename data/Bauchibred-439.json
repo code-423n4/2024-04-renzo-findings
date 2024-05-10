@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Protocol allows stakers to sidestep and avoid validator penalties/slashing",
+  "issueId": 439,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/439",
+  "originalIssueId": 112,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/112"
+}
