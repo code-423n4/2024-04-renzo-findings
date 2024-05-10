@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "3",
+  "title": "Incorrect calculation of queued withdrawals can deflate TVL and increase ezETH mint rate",
+  "issueId": 395,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/395",
+  "originalIssueId": 976,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/976"
+}
