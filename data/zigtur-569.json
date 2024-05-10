@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zigtur",
+  "risk": "2",
+  "title": "Withdrawals and Claims are meant to be pausable, but it is not done in practice",
+  "issueId": 569,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/569",
+  "originalIssueId": 263,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/263"
+}
