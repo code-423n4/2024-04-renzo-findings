@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Maroutis",
+  "risk": "2",
+  "title": "Fixed hearbeat used for price validation is too stale for some tokens",
+  "issueId": 563,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/563",
+  "originalIssueId": 844,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/844"
+}
