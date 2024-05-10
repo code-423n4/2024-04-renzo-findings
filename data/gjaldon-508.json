@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gjaldon",
+  "risk": "2",
+  "title": "Deposits of rebasing stETH can revert",
+  "issueId": 508,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/508",
+  "originalIssueId": 234,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/234"
+}
