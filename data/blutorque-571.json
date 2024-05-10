@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "blutorque",
+  "risk": "3",
+  "title": "Any withdrawals from `beaconChainETHStrategy` cannot be completed, due to OperatorDelegator reentrancy guard",
+  "issueId": 571,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/571",
+  "originalIssueId": 500,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/500"
+}
