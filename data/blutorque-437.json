@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "blutorque",
+  "risk": "3",
+  "title": "Stakers could frontrun `EigenPod.verifyBalancUpdates()` to avoid any validator penalities",
+  "issueId": 437,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/437",
+  "originalIssueId": 313,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/313"
+}
