@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Too few ezETH tokens are minted because of `inflationPercentage` is heavily rounding down as `_currentValueInProtocol ` increases and minting lack slippage control",
+  "issueId": 520,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/520",
+  "originalIssueId": 548,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/548"
+}
