@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "zzykxx",
+  "risk": "2",
+  "title": "DepositQueue doesn't collect fees from execution layer rewards",
+  "issueId": 498,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/498",
+  "originalIssueId": 688,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/688"
+}
