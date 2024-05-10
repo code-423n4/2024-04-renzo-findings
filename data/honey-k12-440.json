@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "honey-k12",
+  "risk": "2",
+  "title": "Users can circumvent slashing penalties by front-running EigenLayer updates",
+  "issueId": 440,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/440",
+  "originalIssueId": 711,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/711"
+}
