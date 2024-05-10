@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "gjaldon",
+  "risk": "2",
+  "title": "TVL will drop when undelegating a staker creates MEV opportunity",
+  "issueId": 455,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/455",
+  "originalIssueId": 404,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/404"
+}
