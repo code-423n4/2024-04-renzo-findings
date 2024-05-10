@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "0xCiphky",
+  "risk": "2",
+  "title": "maxDepositTVL Can Be Bypassed By L2 Deposits",
+  "issueId": 392,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/392",
+  "originalIssueId": 534,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/534"
+}
