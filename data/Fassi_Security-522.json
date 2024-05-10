@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Fassi_Security",
+  "risk": "2",
+  "title": "Lack of latency handling can lead to incorrect amount minted",
+  "issueId": 522,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/522",
+  "originalIssueId": 553,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/553"
+}
