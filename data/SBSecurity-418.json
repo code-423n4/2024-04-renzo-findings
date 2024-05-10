@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "SBSecurity",
+  "risk": "2",
+  "title": "Eigen rewards can be sandwiched to earn more ezETH",
+  "issueId": 418,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/418",
+  "originalIssueId": 505,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/505"
+}
