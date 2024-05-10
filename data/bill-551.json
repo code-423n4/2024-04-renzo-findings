@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "bill",
+  "risk": "3",
+  "title": "Inclusion of Pending Withdrawals in WithdrawQueue in TVL Calculation Causes Users to Lose Staking Rewards",
+  "issueId": 551,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/551",
+  "originalIssueId": 902,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/902"
+}
