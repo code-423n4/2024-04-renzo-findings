@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "jokr",
+  "risk": "3",
+  "title": "Users can avoid slashing losses by front-running",
+  "issueId": 438,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/438",
+  "originalIssueId": 163,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/163"
+}
