@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "jokr",
+  "risk": "2",
+  "title": "Incorrect TVL will be accounted if strategy of a token is updated",
+  "issueId": 477,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/477",
+  "originalIssueId": 893,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/893"
+}
