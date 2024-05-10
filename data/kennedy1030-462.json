@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "kennedy1030",
+  "risk": "3",
+  "title": "Undelegating by operators could freeze funds into EigenLayer.",
+  "issueId": 462,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/462",
+  "originalIssueId": 890,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/890"
+}
