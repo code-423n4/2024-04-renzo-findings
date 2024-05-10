@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "maxim371",
+  "risk": "3",
+  "title": "`RenzoOracle.sol::lookupTokenValue` oracle uses 24hrs + 60 seconds which is stale",
+  "issueId": 561,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/561",
+  "originalIssueId": 546,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/546"
+}
