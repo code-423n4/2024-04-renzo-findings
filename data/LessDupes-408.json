@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "3",
+  "title": "Withdrawal queue balance included in TVL leads to inaccurate mint and redeem rates",
+  "issueId": 408,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/408",
+  "originalIssueId": 978,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/978"
+}
