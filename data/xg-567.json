@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "xg",
+  "risk": "2",
+  "title": "The `WithdrawQueue` contract cannot be paused because it does not use `whenPaused` modifier in any of its functions",
+  "issueId": 567,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/567",
+  "originalIssueId": 165,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/165"
+}
