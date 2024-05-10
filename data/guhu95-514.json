@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "guhu95",
+  "risk": "2",
+  "title": "`calculateTVL` may run out of gas for modest number of operators and tokens breaking deposits, withdrawals, and trades",
+  "issueId": 514,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/514",
+  "originalIssueId": 599,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/599"
+}
