@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "3",
+  "title": "Withdrawals can be locked forever if recipient is a contract",
+  "issueId": 612,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/612",
+  "originalIssueId": 980,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/980"
+}
