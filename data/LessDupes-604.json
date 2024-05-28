@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "2",
+  "title": "Withdrawals can fail due to deposits reverting in `completeQueuedWithdrawal()`",
+  "issueId": 604,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/604",
+  "originalIssueId": 998,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/998"
+}
