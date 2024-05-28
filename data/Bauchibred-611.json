@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Users that place in multiple withdrawal requests within the cooldown period would have their amount of tokens to redeem locked in the WithdrawalQueue for their later placed withdrawals",
+  "issueId": 611,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/611",
+  "originalIssueId": 110,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/110"
+}
