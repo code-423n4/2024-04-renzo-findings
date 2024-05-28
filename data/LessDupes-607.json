@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "LessDupes",
+  "risk": "2",
+  "title": "Unfair changes to cooldown period affect existing withdrawals",
+  "issueId": 607,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/607",
+  "originalIssueId": 1005,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/1005"
+}
