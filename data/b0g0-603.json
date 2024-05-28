@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "b0g0",
+  "risk": "2",
+  "title": "Restake Manager incorrectly calculates the totatRewardsEarned",
+  "issueId": 603,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/603",
+  "originalIssueId": 387,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/387"
+}
