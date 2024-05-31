@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "Fassi_Security",
+  "risk": "3",
+  "title": "Users can mint `xEZETH` for less than `1 to 1` ratio",
+  "issueId": 615,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/615",
+  "originalIssueId": 556,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/556"
+}
