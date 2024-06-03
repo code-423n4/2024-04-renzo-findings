@@ -1,0 +1,10 @@
+{
+  "contest": 372,
+  "handle": "tapir",
+  "risk": "3",
+  "title": "Completing a withdrawal reverts due to unexpected caller",
+  "issueId": 92,
+  "issueUrl": "https://github.com/code-423n4/2024-04-renzo-findings/issues/92",
+  "originalIssueId": 59,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-04-renzo-validation/issues/59"
+}
