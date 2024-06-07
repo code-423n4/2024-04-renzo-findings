@@ -232,6 +232,9 @@ ETH-Transfer
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/612).*
 
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/109).
+
 ***
 
 ## [[H-02] Incorrect calculation of queued withdrawals can deflate TVL and increase ezETH mint rate](https://github.com/code-423n4/2024-04-renzo-findings/issues/395)
@@ -336,6 +339,9 @@ Consider changing the address used for the mapping lookup:
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/395#event-12916027310)**
 
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf).
+
 ***
 
 ## [[H-03] ETH withdrawals from EigenLayer always fail due to `OperatorDelegator`'s nonReentrant `receive()`](https://github.com/code-423n4/2024-04-renzo-findings/issues/368)
@@ -395,6 +401,9 @@ Consider removing `nonReentrant` from OperatorDelegator's `receive`, or applying
 Reentrancy
 
 **[jatinj615 (Renzo) confirmed via duplicate Issue #571](https://github.com/code-423n4/2024-04-renzo-findings/issues/571#event-12785930232)**
+
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/5700b8dd6318b6ac1c7a50875a12b167da65f032).
 
 ***
 
@@ -461,6 +470,9 @@ MEV
  > The sponsor's comment in [#259](https://github.com/code-423n4/2024-04-renzo-findings/issues/259#issuecomment-2107771002) is relevant here, on why withdrawals are priced on `withdraw`,  and not `claim`. The resulting implementation might have to take a trade-off between being arbitraged one way or another, or opt for a different implementation altogether.
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/326#event-12916111345)**
+
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/111).
 
 ***
 
@@ -817,6 +829,9 @@ DoS
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/87#event-12925535546)**
 
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/647bc4ca9fa181bf87f1b885e09a887bd0eb6c7c).
+
 ***
 
 ## [[H-08] Incorrect withdraw queue balance in TVL calculation](https://github.com/code-423n4/2024-04-renzo-findings/issues/28)
@@ -921,6 +936,9 @@ Math
 
 **[jatinj615 (Renzo) confirmed and commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/28#issuecomment-2107661134):**
  > Yeah, the index should be `j` not `i`. 
+
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032).
 
 ***
 
@@ -1081,6 +1099,9 @@ Context
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/569#event-12915964089)**
 
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032).
+
 ***
 
 ## [[M-03] Fixed hearbeat used for price validation is too stale for some tokens](https://github.com/code-423n4/2024-04-renzo-findings/issues/563)
@@ -1116,11 +1137,13 @@ This means that on Arbitrum, `24 hours` can be considered too large for the stal
 
 ### Recommended Mitigation Steps
 
-It is recommanded to store a mapping that would record the hearbeat parameter for the stale period of each token and for every different chain.
+It is recommended to store a mapping that would record the hearbeat parameter for the stale period of each token and for every different chain.
 
 ### Assessed type
 
 Oracle
+
+**[jatinj615 (Renzo) acknowledged](https://github.com/code-423n4/2024-04-renzo-findings/issues/563#event-13001051441)**
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/563).*
 
@@ -1838,6 +1861,9 @@ To address this issue, the `deposit` function can be modified to only approve th
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/198#event-12916118847)**
 
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf#diff-9ef0de77fd5c84001c61efd21485131caa42626118759d9ae76d8b652726dc8c).
+
 ***
 
 ## [[M-10] Potential arbitrage opportunity in the `xRenzoDeposit` L2 contract](https://github.com/code-423n4/2024-04-renzo-findings/issues/135)
@@ -2081,6 +2107,9 @@ Update the `getRate()` function to provide the same exchange rate used when mint
 This ensures that the rate provided to Balancer pools is consistent with the actual minting rate and is not stale.
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/113#event-12880180154)**
+
+**Renzo mitigated:**
+> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/113).
 
 ***
 
