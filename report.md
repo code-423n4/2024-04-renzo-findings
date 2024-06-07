@@ -233,6 +233,7 @@ ETH-Transfer
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/612).*
 
 **Renzo mitigated:**
+> This PR allows contracts like multisigs to be able to claim the withdraw request in Native ETH by sending it through call instead of transfer
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/109).
 
 ***
@@ -472,6 +473,7 @@ MEV
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/326#event-12916111345)**
 
 **Renzo mitigated:**
+> This PR reduces the risk of arbitrage at withdraw by calculating the amount of withdrawing asset at time of withdraw as well as claim and returns the min of both amount to user.
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/111).
 
 ***
@@ -2109,6 +2111,7 @@ This ensures that the rate provided to Balancer pools is consistent with the act
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/113#event-12880180154)**
 
 **Renzo mitigated:**
+> This PR adds staleness check in getRate function for balancerPools on L2
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/113).
 
 ***
