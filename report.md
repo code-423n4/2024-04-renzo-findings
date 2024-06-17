@@ -17,7 +17,7 @@ A C4 audit is an event in which community participants, referred to as Wardens, 
 
 During the audit outlined in this document, C4 conducted an analysis of the Renzo smart contract system written in Solidity. The audit took place between April 30 — May 8, 2024.
 
-A mitigation review is underway for identified issues below; the mitigation review report will be appended below the audit report once results are finalized.
+Following the C4 audit, the sponsor's related mitigations were reviewed by the following wardens: [Team LessDupes](https://code4rena.com/@LessDupes) ([3docSec](https://code4rena.com/@3docSec), [sin1st3r\_\_](https://code4rena.com/@sin1st3r__), and [EV\_om](https://code4rena.com/@EV_om)), [Team Fassi\_Security](https://code4rena.com/@Fassi_Security) ([bronze\_pickaxe](https://code4rena.com/@bronze_pickaxe), and [mxuse](https://code4rena.com/@mxuse)), [Bauchibred](https://code4rena.com/@Bauchibred), [grearlake](https://code4rena.com/@grearlake), and [0xCiphky](https://code4rena.com/@0xCiphky). The [mitigation review report](#mitigation-review) is appended below the audit report.
 
 ## Wardens
 
@@ -147,7 +147,7 @@ A mitigation review is underway for identified issues below; the mitigation revi
 
 This audit was judged by [alcueca](https://code4rena.com/@alcueca).
 
-Final report assembled by [thebrittfactor](https://twitter.com/brittfactorC4).
+Final report assembled by [thebrittfactor](https://twitter.com/brittfactorC4) and [liveactionllama](https://twitter.com/liveactionllama).
 
 # Summary
 
@@ -232,9 +232,12 @@ ETH-Transfer
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/612).*
 
-**Renzo mitigated:**
-> This PR allows contracts like multisigs to be able to claim the withdraw request in Native ETH by sending it through call instead of transfer
-> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/109).
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
+> The PR [here](https://github.com/Renzo-Protocol/Contracts/pull/109) allows contracts like multisigs to be able to claim the withdraw request in Native ETH by sending it through call instead of transfer.
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/8), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/50), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/40), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/17), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/2).
+
+
 
 ***
 
@@ -340,8 +343,12 @@ Consider changing the address used for the mapping lookup:
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/395#event-12916027310)**
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/9), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/51), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/41), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/18), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/3).
+
+
 
 ***
 
@@ -401,10 +408,14 @@ Consider removing `nonReentrant` from OperatorDelegator's `receive`, or applying
 
 Reentrancy
 
-**[jatinj615 (Renzo) confirmed via duplicate Issue #571](https://github.com/code-423n4/2024-04-renzo-findings/issues/571#event-12785930232)**
+**[jatinj615 (Renzo) confirmed via duplicate Issue \#571](https://github.com/code-423n4/2024-04-renzo-findings/issues/571#event-12785930232)**
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/5700b8dd6318b6ac1c7a50875a12b167da65f032).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/10), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/56), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/42), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/19), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/4).
+
+
 
 ***
 
@@ -472,9 +483,12 @@ MEV
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/326#event-12916111345)**
 
-**Renzo mitigated:**
-> This PR reduces the risk of arbitrage at withdraw by calculating the amount of withdrawing asset at time of withdraw as well as claim and returns the min of both amount to user.
-> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/111).
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
+> The PR [here](https://github.com/Renzo-Protocol/Contracts/pull/111) reduces the risk of arbitrage at withdraw by calculating the amount of withdrawing asset at time of withdraw as well as claim and returns the min of both amount to user.
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/16), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/58), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/20).
+
+
 
 ***
 
@@ -643,6 +657,8 @@ Furthermore, the `claimReserve` and `withdrawalBufferTarget` for stETH would als
 
 **[jatinj615 (Renzo) acknowledged](https://github.com/code-423n4/2024-04-renzo-findings/issues/282#event-13024907465)**
 
+
+
 ***
 
 ## [[H-06] The amount of `xezETH` in circulation will not represent the amount of `ezETH` tokens 1:1](https://github.com/code-423n4/2024-04-renzo-findings/issues/145)
@@ -713,6 +729,8 @@ If this is implemented it's possible for the valuation of `ezETH` tokens to chan
 > - The finding clearly demonstrates a realistic scenario where the system could become insolvent, resulting in a loss of funds for users. Despite the current over-collateralization and precautions, there remains a long-term risk.
 > - The audited implementation contains blockages that will affect efforts to maintain collateralization for ezETH. For example, if the MaxTVL is reached, the protocol cannot deposit in L1, causing an accumulation of minted L2 tokens until it becomes possible to deposit again, which could take a significant amount of time.
 > - This issue can be intentionally exploited by users whenever the price on the L1 side is higher than on the L2 side.
+
+
 
 ***
 
@@ -831,8 +849,12 @@ DoS
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/87#event-12925535546)**
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/647bc4ca9fa181bf87f1b885e09a887bd0eb6c7c).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/11), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/57), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/43), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/22), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/5).
+
+
 
 ***
 
@@ -939,8 +961,12 @@ Math
 **[jatinj615 (Renzo) confirmed and commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/28#issuecomment-2107661134):**
  > Yeah, the index should be `j` not `i`. 
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/12), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/55), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/44), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/23), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/6).
+
+
 
 ***
 
@@ -996,7 +1022,9 @@ Consider catching any reverts when depositing excess tokens into strategies. In 
  > With 1 wei issue, yes the transaction will revert but  it doesn't affect the funds and will be retried later on. Acknowledging for 1 wei issue.
 
 **[alcueca (judge) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/604#issuecomment-2138724646):**
- > In general, accepting. because in any case that EigenLayer puts conditions on deposits, it might make withdrawals fail as well.
+ > In general, accepting. Because in any case that EigenLayer puts conditions on deposits, it might make withdrawals fail as well.
+
+
 
 ***
 
@@ -1101,8 +1129,12 @@ Context
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/569#event-12915964089)**
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/13), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/52), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/45), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/30), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/25).
+
+
 
 ***
 
@@ -1148,6 +1180,8 @@ Oracle
 **[jatinj615 (Renzo) acknowledged](https://github.com/code-423n4/2024-04-renzo-findings/issues/563#event-13001051441)**
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/563).*
+
+
 
 ***
 
@@ -1297,7 +1331,7 @@ Timing
 > 
 > To reiterate, there is no malicious entity needed for this pathway to be DoS'ed, the reverts marked with an `->` in our issue's are all point of failures.
 
-**[EV_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/519#issuecomment-2133969489):**
+**[EV\_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/519#issuecomment-2133969489):**
  > I believe this finding is also invalid.
 > 
 > The interpretation of the Chainlink docs is incorrect. The quoted excerpt specifies that if a message goes into manual execution mode due to unhandled exceptions, subsequent messages _don't_ get automatically blocked. The only case in which a message blocks subsequent messages is if it "goes into manual execution mode after the Smart Execution time window expires", which can only happen:
@@ -1355,6 +1389,8 @@ Timing
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/519).*
 
+
+
 ***
 
 ## [[M-05] `calculateTVL` may run out of gas for modest number of operators and tokens breaking deposits, withdrawals, and trades](https://github.com/code-423n4/2024-04-renzo-findings/issues/514)
@@ -1401,6 +1437,8 @@ Alternatively, an off-chain custom TVL oracle can be used, for example, via a cu
 DoS
 
 **[jatinj615 (Renzo) acknowledged](https://github.com/code-423n4/2024-04-renzo-findings/issues/514#event-12915967118)**
+
+
 
 ***
 
@@ -1498,7 +1536,7 @@ Timing
 
 **[jatinj615 (Renzo) acknowledged](https://github.com/code-423n4/2024-04-renzo-findings/issues/502#event-12915979432)**
 
-**[EV_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/502#issuecomment-2132391915):**
+**[EV\_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/502#issuecomment-2132391915):**
  > @alcueca - I believe this finding must be invalid.
 > 
 > While it is true that the sequencer can adjust the timestamp of a delayed block to up to 24 hours in the past, I believe this block will only ever include transactions that were received by the sequencer _prior_ to that timestamp.
@@ -1508,7 +1546,6 @@ Timing
 > If this was indeed the case, the warden would have found a much more severe vulnerability than the trivial revert here.
 > 
 > On Optimism, for instance, this check is implemented [here](https://github.com/ethereum-optimism/optimism/blob/7cbda018196b58a71e2c0b4bc9e31a289235074e/packages/contracts-bedrock/src/L2/CrossL2Inbox.sol#L116).
-
 
 **[ladboy233 (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/502#issuecomment-2132397867):**
  > > On Optimism, for instance, this check is implemented [here](https://github.com/ethereum-optimism/optimism/blob/7cbda018196b58a71e2c0b4bc9e31a289235074e/packages/contracts-bedrock/src/L2/CrossL2Inbox.sol#L116).
@@ -1562,6 +1599,8 @@ Timing
 **[alcueca (judge) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/502#issuecomment-2132708720):**
  > Timestamps in L1 and L2 are not related and it can't be demanded that one or the other is always greater.
 
+
+
 ***
 
 ## [[M-07] Lack of slippage and deadline during withdraw and deposit](https://github.com/code-423n4/2024-04-renzo-findings/issues/484)
@@ -1585,7 +1624,7 @@ Allow users to pass a slippage tolerance value and a deadline parameter while ca
 >
 > We need the warden to provide a POC of delta around `deposit` and `withdraw` considering we will be implementing slashing pricing mechanism at the time of claim specified in [#326](https://github.com/code-423n4/2024-04-renzo-findings/issues/326).  
 
-**[sin1st3r__ (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/484#issuecomment-2132184938):**
+**[sin1st3r\_\_ (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/484#issuecomment-2132184938):**
  > @alcueca - I believe this should be a QA rather than a Med. You need slippage and deadline when the price can be manipulated like in an AMM. Here, since the price of the exchange is always fair because it can’t be moved by however large user operation, but only by changes in oracle price (that is fair by definition), there is no strong case for the same of level of protection as in AMMs.
  >
 > Staking on Lido for example doesn't have slippage or deadline either. See [here](https://etherscan.io/address/0x17144556fd3424edc8fc8a4c940b2d04936d17eb#code).
@@ -1594,6 +1633,8 @@ Allow users to pass a slippage tolerance value and a deadline parameter while ca
  > The thing is that Renzo is using market oracles, as stated in [#13](https://github.com/code-423n4/2024-04-renzo-findings/issues/13). These oracles can fluctuate more than the actual exchange rate, due to market forces. In some situations the users might be displeased that their withdrawals rended less value because of a temporary spike in the oracle.
 > 
 > It is quite borderline, because it needs the oracles to have jumps large enough to bother users. However, I do see value to add slippage controls, and let users disable them in volatile conditions when they just want to dump.
+
+
 
 ***
 
@@ -1748,10 +1789,10 @@ Context
 
 **[Blckhv (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/373#issuecomment-2131196073):**
  > @alcueca - I think this issue should be of low severity because we can see that `xRenzoBridge` has functions to retrieve the funds that are "stuck", which is exactly what the first paragraph of the provided Connext documentation advises [here](https://docs.connext.network/developers/guides/handling-failures#reverts-on-receiver-contract).
-> In all matters, manually distributing failed transactions funds is not an optimal solution, but in the end, funds are not really stuck, since the admin can still process them from the Connext directly:
+> In all matters, manually distributing failed transactions funds is not an optimal solution, but in the end, funds are not really stuck, since the admin can still process them from the Connext directly.
 
-**[sin1st3r__ (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/373#issuecomment-2131382214):**
-> @Blckhv -  I'm afraid this is factually incorrect. Connext allows you to re-submit/retry a failed TX only if it failed due to insufficient relayer fee.
+**[sin1st3r\_\_ (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/373#issuecomment-2131382214):**
+> @Blckhv - I'm afraid this is factually incorrect. Connext allows you to re-submit/retry a failed TX only if it failed due to insufficient relayer fee.
 > 
 > In the case it failed due to the `xReceive()` on the destination chain reverting, then the funds will be stuck. Not to mention that this failure is silent. Meaning that admins may be notified that this call failed on the destination chain very late. 
 > 
@@ -1764,6 +1805,9 @@ Context
 > Bridging silently failing and admins having to manually recover funds and manually redistribute to other parts of the system is surely Medium severity worthy.
 
 *Note: for full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/373).*
+
+
+
 ***
 
 ## [[M-09] Deposits will always revert if the amount being deposited is less than the `bufferToFill` value](https://github.com/code-423n4/2024-04-renzo-findings/issues/198)
@@ -1863,8 +1907,12 @@ To address this issue, the `deposit` function can be modified to only approve th
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/198#event-12916118847)**
 
-**Renzo mitigated:**
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
 > PR [here](https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf#diff-9ef0de77fd5c84001c61efd21485131caa42626118759d9ae76d8b652726dc8c).
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/14), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/53), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/46), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/31), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/26).
+
+
 
 ***
 
@@ -1898,6 +1946,8 @@ Since there are two fees associated with L2 deposits, this should help minimize 
 
 **[jatinj615 (Renzo) acknowledged and commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/135#issuecomment-2122609851):**
  > Expected behaviour. 
+
+
 
 ***
 
@@ -2051,7 +2101,7 @@ Oracle
 **[alcueca (judge) decreased severity to Medium and commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/117#issuecomment-2129004977):**
  > The first issue described by the warden can be described as a governance error.
 
-**[EV_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/117#issuecomment-2132384920):**
+**[EV\_om (warden) commented](https://github.com/code-423n4/2024-04-renzo-findings/issues/117#issuecomment-2132384920):**
  > @alcueca - I agree with @jatinj615 here that this is a QA issue.
 > 
 > The first issue can be described as a governance issue as you said.
@@ -2068,6 +2118,8 @@ Oracle
 > On the third issue, I can see how the code is expected to halt due to large price changes, with an admin calling `updatePriceByOwner` to validate that the changes are real.
 
 *Note: For full discussion, see [here](https://github.com/code-423n4/2024-04-renzo-findings/issues/117).*
+
+
 
 ***
 
@@ -2110,9 +2162,12 @@ This ensures that the rate provided to Balancer pools is consistent with the act
 
 **[jatinj615 (Renzo) confirmed](https://github.com/code-423n4/2024-04-renzo-findings/issues/113#event-12880180154)**
 
-**Renzo mitigated:**
-> This PR adds staleness check in getRate function for balancerPools on L2
-> PR [here](https://github.com/Renzo-Protocol/Contracts/pull/113).
+**[Renzo mitigated](https://github.com/code-423n4/2024-06-renzo-mitigation?tab=readme-ov-file#scope):**
+> The PR [here](https://github.com/Renzo-Protocol/Contracts/pull/113) adds staleness check in `getRate` function for `balancerPools` on L2.
+
+**Status:** Mitigation confirmed. Full details in reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/15), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/54), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/47), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/32), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/29).
+
+
 
 ***
 
@@ -2161,6 +2216,8 @@ Alternatively, include the balance of the `WithdrawQueue` in the TVL calculation
 > 
 > The force `kickOff` will be implemented later on. 
 
+
+
 ***
 
 ## [[M-14] stETH/ETH feed being used opens up to 2 way `deposit<->withdrawal` arbitrage](https://github.com/code-423n4/2024-04-renzo-findings/issues/13)
@@ -2207,6 +2264,8 @@ Oracle
  > Regarding PJQA [here](https://github.com/code-423n4/2024-04-renzo-findings/discussions/596#discussioncomment-9555242), I do actually know of other protocols working on similar topics that have recognized this as a problem and taken significant steps to avoid it.
 >
  > Mitigation from sponsor on [#424](https://github.com/code-423n4/2024-04-renzo-findings/issues/424), along with explanation on why both groups should be merged. Namely, that using the market rate for stETH/ETH is what enables arbitraging between different collaterals, and that the fix from this finding will also fix the duplicates.
+
+
 
 ***
 
@@ -2956,6 +3015,70 @@ FILE: 2024-04-renzo/contracts/Deposits/DepositQueue.sol
 ```
 
 https://github.com/code-423n4/2024-04-renzo/blob/519e518f2d8dec9acf6482b84a181e403070d22d/contracts/Deposits/DepositQueue.sol#L279-L289
+
+***
+
+# [Mitigation Review](#mitigation-review)
+
+## Introduction
+
+Following the C4 audit, the sponsor's related mitigations were reviewed by the following wardens: [Team LessDupes](https://code4rena.com/@LessDupes) ([3docSec](https://code4rena.com/@3docSec), [sin1st3r\_\_](https://code4rena.com/@sin1st3r__), and [EV\_om](https://code4rena.com/@EV_om)), [Team Fassi\_Security](https://code4rena.com/@Fassi_Security) ([bronze\_pickaxe](https://code4rena.com/@bronze_pickaxe), and [mxuse](https://code4rena.com/@mxuse)), [Bauchibred](https://code4rena.com/@Bauchibred), [grearlake](https://code4rena.com/@grearlake), and [0xCiphky](https://code4rena.com/@0xCiphky). Additional details can be found within the [C4 Renzo Mitigation Review repository](https://github.com/code-423n4/2024-06-renzo-mitigation).
+
+## Mitigation Review Scope
+
+### Branch
+
+https://github.com/Renzo-Protocol/Contracts
+
+### Mitigations of High & Medium Severity Issues
+
+| Mitigation of   | URL |
+| -------------- | ------------- |
+| H-01 | https://github.com/Renzo-Protocol/Contracts/pull/109 |
+| H-02 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf |
+| H-03 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/5700b8dd6318b6ac1c7a50875a12b167da65f032 |
+| H-04 |https://github.com/Renzo-Protocol/Contracts/pull/111 |
+| H-07 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/647bc4ca9fa181bf87f1b885e09a887bd0eb6c7c |
+| H-08 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032 |
+| M-02 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/2e4f4c6701ed004c2f10addde2d3089ac1b3d032 |
+| M-09 | https://github.com/Renzo-Protocol/Contracts/pull/87/commits/89a344ba837d98018b63a450666a72b0827aa8cf#diff-9ef0de77fd5c84001c61efd21485131caa42626118759d9ae76d8b652726dc8c |
+| M-12 | https://github.com/Renzo-Protocol/Contracts/pull/113 |
+
+### Out of Scope
+
+Any findings that were acknowledged, disputed, or in QA reports from the past audit.
+
+- H-05: Withdrawals of rebasing tokens can lead to insolvency and unfair distribution of protocol reserves
+- H-06: The amount of xezETH in circulation will not represent the amount of ezETH tokens 1:1
+- M-01: Withdrawals can fail due to deposits reverting in `completeQueuedWithdrawal()`
+- M-03: Fixed hearbeat used for price validation is too stale for some tokens
+- M-04: Price updating mechanism can break
+- M-05: `calculateTVL` may run out of gas for modest number of operators and tokens breaking deposits, withdrawals, and trades
+- M-06: `L1::xRenzoBridge` and `L2::xRenzoBridge` uses the `block.timestamp` as dependency, which can cause issue.
+- M-07: Lack of slippage and deadline during withdraw and deposit
+- M-08: Not handling the failure of cross chain messaging
+- M-10: Potential Arbitrage Opportunity in the `xRenzoDeposit` L2 contract
+- M-11: Fetched price from the oracle is not stored in `xRenzoDeposit`
+- M-13: Pending withdrawals prevent safe removal of collateral assets
+- M-14: stETH/ETH Feed being used opens up to 2 way `deposit <-> withdrawal` arbitrage
+
+## Mitigation Review Summary
+
+As noted in the table below, the participating wardens confirmed the mitigation of each in-scope vulnerability. Further, no new High severity or Medium severity vulnerabilities were uncovered during their review.
+
+| Original Issue | Status | Full Details |
+| --- | --- | --- |
+| H-01 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/8), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/50), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/40), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/17), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/2) |
+| H-02 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/9), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/51), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/41), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/18), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/3) |
+| H-03 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/10), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/56), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/42), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/19), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/4) |
+| H-04 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/16), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/58), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/20) |
+| H-07 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/11), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/57), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/43), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/22), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/5) |
+| H-08 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/12), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/55), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/44), [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/23), and [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/6) |
+| M-02 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/13), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/52), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/45), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/30), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/25) |
+| M-09 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/14), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/53), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/46), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/31), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/26) |
+| M-12 |  🟢 Mitigation Confirmed | Reports from [0xCiphky](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/15), [grearlake](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/54), [Fassi\_Security](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/47), [LessDupes](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/32), and [Bauchibred](https://github.com/code-423n4/2024-06-renzo-mitigation-findings/issues/29) |
+
+
 
 ***
 
